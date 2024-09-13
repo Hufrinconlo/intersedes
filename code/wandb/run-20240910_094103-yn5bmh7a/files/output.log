@@ -1,0 +1,30 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Epoch 1/100
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\Documents\Mamitas\Mamitas-Unal\code\trains.py", line 48, in train
+    train_model(model, dataset_class, run,  data_augmentation=data_augmentation,
+  File "C:\Users\Estudiantes\Documents\Mamitas\Mamitas-Unal\code\convRFF\train.py", line 84, in train
+    model.fit(**train_parameters)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 176, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 176, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 176, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\tensorflow\python\eager\execute.py", line 54, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Graph execution error:
+TypeError: `generator` yielded an element of shape (480, 640) where an element of shape (None, None, None) was expected.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\tensorflow\python\ops\script_ops.py", line 271, in __call__
+    ret = func(*args)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\tensorflow\python\autograph\impl\api.py", line 642, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\tensorflow\python\data\ops\dataset_ops.py", line 1078, in generator_py_func
+    raise TypeError(
+TypeError: `generator` yielded an element of shape (480, 640) where an element of shape (None, None, None) was expected.
+	 [[{{node PyFunc}}]]
+	 [[IteratorGetNext]] [Op:__inference_train_function_34154]

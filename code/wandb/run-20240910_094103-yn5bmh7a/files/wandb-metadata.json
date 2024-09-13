@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-09-10T14:41:04.616758",
+    "startedAt": "2024-09-10T14:41:03.904257",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\Estudiantes\\Documents\\Mamitas\\Mamitas-Unal\\code\\trains.py",
+    "codePathLocal": "trains.py",
+    "codePath": "code\\trains.py",
+    "git": {
+        "remote": "https://github.com/WilhelmBuitrago/Mamitas-Unal.git",
+        "commit": "1681530af481d56cde4f896f4195b94a2b8e95fc"
+    },
+    "email": "wibuitragog@unal.edu.co",
+    "root": "C:/Users/Estudiantes/Documents/Mamitas/Mamitas-Unal",
+    "host": "DESKTOP-5G1CH00",
+    "username": "Estudiantes",
+    "executable": "C:\\Users\\Estudiantes\\miniconda3\\envs\\mamitasHugo\\python.exe",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3200.0,
+        "min": 0.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3200.0,
+            "min": 0.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 951.1415977478027,
+            "used": 186.12801361083984
+        }
+    },
+    "gpu": "NVIDIA RTX A2000 12GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A2000 12GB",
+            "memory_total": 12878610432
+        }
+    ],
+    "memory": {
+        "total": 63.69602584838867
+    }
+}
