@@ -1,0 +1,5 @@
+# Ignore the wandb files
+
+wandb/
+
+code/wandb
