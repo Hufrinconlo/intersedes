@@ -1,6 +1,0 @@
-wandb_version: 1
-
-dataset:
-  value: infrared_thermal_feet
-model:
-  value: u_b_s

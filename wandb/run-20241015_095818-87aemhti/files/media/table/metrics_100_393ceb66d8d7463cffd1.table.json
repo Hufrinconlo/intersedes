@@ -1,1 +1,0 @@
-{"columns": ["metric", "label", "mean", "std"], "data": [["Jaccard", null, 0.699589729309082, 0.1731041520833969], ["Sensitivity", null, 0.7701124548912048, 0.1782827526330948], ["Specificity", null, 0.9616973400115967, 0.027025192975997925], ["DiceCoefficientMetric", null, 0.809998095035553, 0.13076739013195038]]}
