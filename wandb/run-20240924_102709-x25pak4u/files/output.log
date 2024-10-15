@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "c:\Users\Estudiantes\Documents\copy\Mamitas-Unal\code\trains.py", line 48, in train
+    train_model(model, dataset_class, run,  data_augmentation=data_augmentation,
+  File "c:\Users\Estudiantes\Documents\copy\Mamitas-Unal\code\convRFF\train.py", line 78, in train
+    train_parameters = get_train_parameters(dataset_class,data_augmentation=data_augmentation,
+  File "c:\Users\Estudiantes\Documents\copy\Mamitas-Unal\code\convRFF\config.py", line 84, in get_t_p
+    f = gtp(*args,**kwargs)
+  File "c:\Users\Estudiantes\Documents\copy\Mamitas-Unal\code\convRFF\config.py", line 74, in gtp
+    train_data, val_data, test_data = get_data(dataset_class, data_augmentation=data_augmentation, **kwargs_data_augmentation)
+  File "c:\Users\Estudiantes\Documents\copy\Mamitas-Unal\code\convRFF\data.py", line 139, in get_data
+    dataset = dataset_class(seed=seed, split=split)
+  File "c:\Users\Estudiantes\Documents\copy\Mamitas-Unal\code\gcpds\DataSet\infrared_thermal_feet.py", line 33, in __init__
+    self.__set_env()
+  File "c:\Users\Estudiantes\Documents\copy\Mamitas-Unal\code\gcpds\DataSet\infrared_thermal_feet.py", line 48, in __set_env
+    unzip(destination_path_zip, self.__folder)
+  File "c:\Users\Estudiantes\Documents\copy\Mamitas-Unal\code\gcpds\DataSet\utils.py", line 6, in unzip
+    with zipfile.ZipFile(file_path, 'r') as zip_ref:
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: './gcpds/DataSet\\InfraredThermalFeet.zip'

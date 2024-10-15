@@ -1,0 +1,205 @@
+code\gcpds\DataSet\dataset
+Epoch 1/100
+
+16/16 [==============================] - ETA: 0s - loss: -0.5383 - Jaccard: 0.3902 - Sensitivity: 0.8879 - Specificity: 0.7159 - DiceCoefficientMetric: -0.5383
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+16/16 [==============================] - 14s 718ms/step - loss: -0.5383 - Jaccard: 0.3902 - Sensitivity: 0.8879 - Specificity: 0.7159 - DiceCoefficientMetric: -0.5383 - val_loss: -0.3518 - val_Jaccard: 0.2154 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.3518
+Epoch 2/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.6993 - Jaccard: 0.5500 - Sensitivity: 0.9718 - Specificity: 0.8751 - DiceCoefficientMetric: -0.6993 - val_loss: -0.2921 - val_Jaccard: 0.1719 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.2921
+Epoch 3/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.7617 - Jaccard: 0.6262 - Sensitivity: 0.9836 - Specificity: 0.9238 - DiceCoefficientMetric: -0.7617 - val_loss: -0.2193 - val_Jaccard: 0.1235 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.2193
+Epoch 4/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.8026 - Jaccard: 0.6817 - Sensitivity: 0.9868 - Specificity: 0.9423 - DiceCoefficientMetric: -0.8026 - val_loss: -0.1485 - val_Jaccard: 0.0803 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.1485
+Epoch 5/100
+16/16 [==============================] - 2s 111ms/step - loss: -0.8325 - Jaccard: 0.7247 - Sensitivity: 0.9878 - Specificity: 0.9527 - DiceCoefficientMetric: -0.8325 - val_loss: -0.1072 - val_Jaccard: 0.0567 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.1072
+Epoch 6/100
+16/16 [==============================] - 2s 111ms/step - loss: -0.8492 - Jaccard: 0.7499 - Sensitivity: 0.9829 - Specificity: 0.9563 - DiceCoefficientMetric: -0.8492 - val_loss: -0.0775 - val_Jaccard: 0.0404 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0775
+Epoch 7/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.8723 - Jaccard: 0.7856 - Sensitivity: 0.9873 - Specificity: 0.9610 - DiceCoefficientMetric: -0.8723 - val_loss: -0.0571 - val_Jaccard: 0.0294 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0571
+Epoch 8/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.8882 - Jaccard: 0.8115 - Sensitivity: 0.9878 - Specificity: 0.9618 - DiceCoefficientMetric: -0.8882 - val_loss: -0.0440 - val_Jaccard: 0.0225 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0440
+Epoch 9/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.9020 - Jaccard: 0.8346 - Sensitivity: 0.9892 - Specificity: 0.9641 - DiceCoefficientMetric: -0.9020 - val_loss: -0.0349 - val_Jaccard: 0.0178 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0349
+Epoch 10/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.9110 - Jaccard: 0.8500 - Sensitivity: 0.9888 - Specificity: 0.9642 - DiceCoefficientMetric: -0.9110 - val_loss: -0.0324 - val_Jaccard: 0.0165 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0324
+Epoch 11/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.9197 - Jaccard: 0.8650 - Sensitivity: 0.9898 - Specificity: 0.9656 - DiceCoefficientMetric: -0.9197 - val_loss: -0.0271 - val_Jaccard: 0.0138 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0271
+Epoch 12/100
+16/16 [==============================] - 2s 111ms/step - loss: -0.9272 - Jaccard: 0.8774 - Sensitivity: 0.9902 - Specificity: 0.9702 - DiceCoefficientMetric: -0.9272 - val_loss: -0.0232 - val_Jaccard: 0.0118 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0232
+Epoch 13/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.9298 - Jaccard: 0.8779 - Sensitivity: 0.9868 - Specificity: 0.9799 - DiceCoefficientMetric: -0.9298 - val_loss: -0.0229 - val_Jaccard: 0.0116 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0229
+Epoch 14/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.9381 - Jaccard: 0.8860 - Sensitivity: 0.9826 - Specificity: 0.9895 - DiceCoefficientMetric: -0.9381 - val_loss: -0.0245 - val_Jaccard: 0.0124 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0245
+Epoch 15/100
+16/16 [==============================] - 2s 111ms/step - loss: -0.9487 - Jaccard: 0.9031 - Sensitivity: 0.9866 - Specificity: 0.9924 - DiceCoefficientMetric: -0.9487 - val_loss: -0.0224 - val_Jaccard: 0.0114 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0224
+Epoch 16/100
+16/16 [==============================] - 2s 111ms/step - loss: -0.9567 - Jaccard: 0.9175 - Sensitivity: 0.9894 - Specificity: 0.9941 - DiceCoefficientMetric: -0.9567 - val_loss: -0.0182 - val_Jaccard: 0.0092 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0182
+Epoch 17/100
+16/16 [==============================] - 2s 111ms/step - loss: -0.9625 - Jaccard: 0.9280 - Sensitivity: 0.9910 - Specificity: 0.9953 - DiceCoefficientMetric: -0.9625 - val_loss: -0.0164 - val_Jaccard: 0.0083 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0164
+Epoch 18/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.9659 - Jaccard: 0.9343 - Sensitivity: 0.9922 - Specificity: 0.9954 - DiceCoefficientMetric: -0.9659 - val_loss: -0.0162 - val_Jaccard: 0.0082 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0162
+Epoch 19/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.9696 - Jaccard: 0.9412 - Sensitivity: 0.9925 - Specificity: 0.9963 - DiceCoefficientMetric: -0.9696 - val_loss: -0.0123 - val_Jaccard: 0.0062 - val_Sensitivity: 0.0000e+00 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0123
+Epoch 20/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.9719 - Jaccard: 0.9454 - Sensitivity: 0.9933 - Specificity: 0.9964 - DiceCoefficientMetric: -0.9719 - val_loss: -0.0240 - val_Jaccard: 0.0123 - val_Sensitivity: 0.0066 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0240
+Epoch 21/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.9737 - Jaccard: 0.9490 - Sensitivity: 0.9930 - Specificity: 0.9966 - DiceCoefficientMetric: -0.9737 - val_loss: -0.0317 - val_Jaccard: 0.0165 - val_Sensitivity: 0.0118 - val_Specificity: 1.0000 - val_DiceCoefficientMetric: -0.0317
+Epoch 22/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.9758 - Jaccard: 0.9529 - Sensitivity: 0.9936 - Specificity: 0.9969 - DiceCoefficientMetric: -0.9758 - val_loss: -0.0685 - val_Jaccard: 0.0366 - val_Sensitivity: 0.0323 - val_Specificity: 0.9999 - val_DiceCoefficientMetric: -0.0685
+Epoch 23/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.9776 - Jaccard: 0.9562 - Sensitivity: 0.9941 - Specificity: 0.9970 - DiceCoefficientMetric: -0.9776 - val_loss: -0.0898 - val_Jaccard: 0.0487 - val_Sensitivity: 0.0447 - val_Specificity: 0.9996 - val_DiceCoefficientMetric: -0.0898
+Epoch 24/100
+16/16 [==============================] - 2s 113ms/step - loss: -0.9785 - Jaccard: 0.9580 - Sensitivity: 0.9939 - Specificity: 0.9970 - DiceCoefficientMetric: -0.9785 - val_loss: -0.1141 - val_Jaccard: 0.0626 - val_Sensitivity: 0.0587 - val_Specificity: 0.9994 - val_DiceCoefficientMetric: -0.1141
+Epoch 25/100
+16/16 [==============================] - 2s 115ms/step - loss: -0.9799 - Jaccard: 0.9607 - Sensitivity: 0.9942 - Specificity: 0.9972 - DiceCoefficientMetric: -0.9799 - val_loss: -0.1369 - val_Jaccard: 0.0756 - val_Sensitivity: 0.0723 - val_Specificity: 0.9989 - val_DiceCoefficientMetric: -0.1369
+Epoch 26/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.9814 - Jaccard: 0.9635 - Sensitivity: 0.9944 - Specificity: 0.9976 - DiceCoefficientMetric: -0.9814 - val_loss: -0.1842 - val_Jaccard: 0.1048 - val_Sensitivity: 0.1026 - val_Specificity: 0.9981 - val_DiceCoefficientMetric: -0.1842
+Epoch 27/100
+16/16 [==============================] - 2s 113ms/step - loss: -0.9819 - Jaccard: 0.9645 - Sensitivity: 0.9945 - Specificity: 0.9974 - DiceCoefficientMetric: -0.9819 - val_loss: -0.2274 - val_Jaccard: 0.1332 - val_Sensitivity: 0.1318 - val_Specificity: 0.9976 - val_DiceCoefficientMetric: -0.2274
+Epoch 28/100
+16/16 [==============================] - 2s 113ms/step - loss: -0.9826 - Jaccard: 0.9659 - Sensitivity: 0.9942 - Specificity: 0.9976 - DiceCoefficientMetric: -0.9826 - val_loss: -0.2810 - val_Jaccard: 0.1677 - val_Sensitivity: 0.1676 - val_Specificity: 0.9965 - val_DiceCoefficientMetric: -0.2810
+Epoch 29/100
+16/16 [==============================] - 2s 113ms/step - loss: -0.9830 - Jaccard: 0.9666 - Sensitivity: 0.9938 - Specificity: 0.9976 - DiceCoefficientMetric: -0.9830 - val_loss: -0.3045 - val_Jaccard: 0.1836 - val_Sensitivity: 0.1849 - val_Specificity: 0.9947 - val_DiceCoefficientMetric: -0.3045
+Epoch 30/100
+
+15/16 [===========================>..] - ETA: 0s - loss: -0.9835 - Jaccard: 0.9676 - Sensitivity: 0.9940 - Specificity: 0.9975 - DiceCoefficientMetric: -0.9835
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+16/16 [==============================] - 10s 678ms/step - loss: -0.9835 - Jaccard: 0.9676 - Sensitivity: 0.9939 - Specificity: 0.9975 - DiceCoefficientMetric: -0.9835 - val_loss: -0.3585 - val_Jaccard: 0.2227 - val_Sensitivity: 0.2269 - val_Specificity: 0.9922 - val_DiceCoefficientMetric: -0.3585
+Epoch 31/100
+15/16 [===========================>..] - ETA: 0s - loss: -0.9849 - Jaccard: 0.9704 - Sensitivity: 0.9945 - Specificity: 0.9979 - DiceCoefficientMetric: -0.9849
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+16/16 [==============================] - 10s 634ms/step - loss: -0.9850 - Jaccard: 0.9704 - Sensitivity: 0.9946 - Specificity: 0.9979 - DiceCoefficientMetric: -0.9850 - val_loss: -0.3964 - val_Jaccard: 0.2522 - val_Sensitivity: 0.2586 - val_Specificity: 0.9910 - val_DiceCoefficientMetric: -0.3964
+Epoch 32/100
+15/16 [===========================>..] - ETA: 0s - loss: -0.9859 - Jaccard: 0.9722 - Sensitivity: 0.9954 - Specificity: 0.9980 - DiceCoefficientMetric: -0.9859
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+16/16 [==============================] - 11s 702ms/step - loss: -0.9859 - Jaccard: 0.9723 - Sensitivity: 0.9954 - Specificity: 0.9981 - DiceCoefficientMetric: -0.9859 - val_loss: -0.4101 - val_Jaccard: 0.2645 - val_Sensitivity: 0.2710 - val_Specificity: 0.9916 - val_DiceCoefficientMetric: -0.4101
+Epoch 33/100
+15/16 [===========================>..] - ETA: 0s - loss: -0.9869 - Jaccard: 0.9742 - Sensitivity: 0.9961 - Specificity: 0.9982 - DiceCoefficientMetric: -0.9869
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+16/16 [==============================] - 11s 693ms/step - loss: -0.9870 - Jaccard: 0.9743 - Sensitivity: 0.9961 - Specificity: 0.9982 - DiceCoefficientMetric: -0.9870 - val_loss: -0.4705 - val_Jaccard: 0.3145 - val_Sensitivity: 0.3274 - val_Specificity: 0.9883 - val_DiceCoefficientMetric: -0.4705
+Epoch 34/100
+15/16 [===========================>..] - ETA: 0s - loss: -0.9875 - Jaccard: 0.9753 - Sensitivity: 0.9962 - Specificity: 0.9983 - DiceCoefficientMetric: -0.9875
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+16/16 [==============================] - 11s 702ms/step - loss: -0.9875 - Jaccard: 0.9753 - Sensitivity: 0.9962 - Specificity: 0.9983 - DiceCoefficientMetric: -0.9875 - val_loss: -0.5024 - val_Jaccard: 0.3427 - val_Sensitivity: 0.3598 - val_Specificity: 0.9869 - val_DiceCoefficientMetric: -0.5024
+Epoch 35/100
+15/16 [===========================>..] - ETA: 0s - loss: -0.9876 - Jaccard: 0.9755 - Sensitivity: 0.9959 - Specificity: 0.9983 - DiceCoefficientMetric: -0.9876
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+
+[34m[1mwandb[39m[22m: Adding directory to artifact (C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102410-zuonwg8u\files\model-best)... Done. 0.0s
+16/16 [==============================] - 11s 679ms/step - loss: -0.9876 - Jaccard: 0.9755 - Sensitivity: 0.9959 - Specificity: 0.9983 - DiceCoefficientMetric: -0.9876 - val_loss: -0.5379 - val_Jaccard: 0.3762 - val_Sensitivity: 0.3973 - val_Specificity: 0.9862 - val_DiceCoefficientMetric: -0.5379
+Epoch 36/100
+15/16 [===========================>..] - ETA: 0s - loss: -0.9880 - Jaccard: 0.9764 - Sensitivity: 0.9960 - Specificity: 0.9983 - DiceCoefficientMetric: -0.9880
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+16/16 [==============================] - 11s 687ms/step - loss: -0.9881 - Jaccard: 0.9764 - Sensitivity: 0.9960 - Specificity: 0.9983 - DiceCoefficientMetric: -0.9881 - val_loss: -0.5602 - val_Jaccard: 0.3970 - val_Sensitivity: 0.4224 - val_Specificity: 0.9833 - val_DiceCoefficientMetric: -0.5602
+Epoch 37/100
+16/16 [==============================] - 4s 205ms/step - loss: -0.9883 - Jaccard: 0.9768 - Sensitivity: 0.9959 - Specificity: 0.9983 - DiceCoefficientMetric: -0.9883 - val_loss: -0.5466 - val_Jaccard: 0.3830 - val_Sensitivity: 0.4063 - val_Specificity: 0.9835 - val_DiceCoefficientMetric: -0.5466
+Epoch 38/100
+16/16 [==============================] - 2s 111ms/step - loss: -0.9888 - Jaccard: 0.9778 - Sensitivity: 0.9961 - Specificity: 0.9985 - DiceCoefficientMetric: -0.9888 - val_loss: -0.5515 - val_Jaccard: 0.3898 - val_Sensitivity: 0.4163 - val_Specificity: 0.9831 - val_DiceCoefficientMetric: -0.5515
+Epoch 39/100
+
+16/16 [==============================] - ETA: 0s - loss: -0.9890 - Jaccard: 0.9782 - Sensitivity: 0.9962 - Specificity: 0.9984 - DiceCoefficientMetric: -0.9890
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+
+16/16 [==============================] - 10s 650ms/step - loss: -0.9890 - Jaccard: 0.9782 - Sensitivity: 0.9962 - Specificity: 0.9984 - DiceCoefficientMetric: -0.9890 - val_loss: -0.5875 - val_Jaccard: 0.4244 - val_Sensitivity: 0.4589 - val_Specificity: 0.9798 - val_DiceCoefficientMetric: -0.5875
+Epoch 40/100
+15/16 [===========================>..] - ETA: 0s - loss: -0.9894 - Jaccard: 0.9790 - Sensitivity: 0.9962 - Specificity: 0.9985 - DiceCoefficientMetric: -0.9894
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+16/16 [==============================] - 6s 375ms/step - loss: -0.9894 - Jaccard: 0.9790 - Sensitivity: 0.9962 - Specificity: 0.9985 - DiceCoefficientMetric: -0.9894 - val_loss: -0.5983 - val_Jaccard: 0.4346 - val_Sensitivity: 0.4699 - val_Specificity: 0.9791 - val_DiceCoefficientMetric: -0.5983
+Epoch 41/100
+15/16 [===========================>..] - ETA: 0s - loss: -0.9891 - Jaccard: 0.9784 - Sensitivity: 0.9958 - Specificity: 0.9982 - DiceCoefficientMetric: -0.9891
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+16/16 [==============================] - 6s 375ms/step - loss: -0.9891 - Jaccard: 0.9785 - Sensitivity: 0.9958 - Specificity: 0.9982 - DiceCoefficientMetric: -0.9891 - val_loss: -0.6046 - val_Jaccard: 0.4420 - val_Sensitivity: 0.4820 - val_Specificity: 0.9771 - val_DiceCoefficientMetric: -0.6046
+Epoch 42/100
+16/16 [==============================] - 2s 111ms/step - loss: -0.9890 - Jaccard: 0.9783 - Sensitivity: 0.9954 - Specificity: 0.9982 - DiceCoefficientMetric: -0.9890 - val_loss: -0.5977 - val_Jaccard: 0.4344 - val_Sensitivity: 0.4721 - val_Specificity: 0.9777 - val_DiceCoefficientMetric: -0.5977
+Epoch 43/100
+16/16 [==============================] - 2s 110ms/step - loss: -0.9889 - Jaccard: 0.9781 - Sensitivity: 0.9956 - Specificity: 0.9980 - DiceCoefficientMetric: -0.9889 - val_loss: -0.6039 - val_Jaccard: 0.4390 - val_Sensitivity: 0.4780 - val_Specificity: 0.9771 - val_DiceCoefficientMetric: -0.6039
+Epoch 44/100
+15/16 [===========================>..] - ETA: 0s - loss: -0.9885 - Jaccard: 0.9773 - Sensitivity: 0.9941 - Specificity: 0.9981 - DiceCoefficientMetric: -0.9885
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+16/16 [==============================] - 5s 359ms/step - loss: -0.9885 - Jaccard: 0.9773 - Sensitivity: 0.9942 - Specificity: 0.9980 - DiceCoefficientMetric: -0.9885 - val_loss: -0.6050 - val_Jaccard: 0.4417 - val_Sensitivity: 0.4831 - val_Specificity: 0.9772 - val_DiceCoefficientMetric: -0.6050
+Epoch 45/100
+15/16 [===========================>..] - ETA: 0s - loss: -0.9896 - Jaccard: 0.9795 - Sensitivity: 0.9947 - Specificity: 0.9986 - DiceCoefficientMetric: -0.9896
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+[34m[1mwandb[39m[22m: Adding directory to artifact (C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102410-zuonwg8u\files\model-best)... Done. 0.0s
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+16/16 [==============================] - 6s 364ms/step - loss: -0.9897 - Jaccard: 0.9795 - Sensitivity: 0.9947 - Specificity: 0.9985 - DiceCoefficientMetric: -0.9897 - val_loss: -0.6204 - val_Jaccard: 0.4541 - val_Sensitivity: 0.4914 - val_Specificity: 0.9778 - val_DiceCoefficientMetric: -0.6204
+Epoch 46/100
+15/16 [===========================>..] - ETA: 0s - loss: -0.9910 - Jaccard: 0.9821 - Sensitivity: 0.9968 - Specificity: 0.9987 - DiceCoefficientMetric: -0.9910
+16/16 [==============================] - 7s 437ms/step - loss: -0.9910 - Jaccard: 0.9821 - Sensitivity: 0.9968 - Specificity: 0.9987 - DiceCoefficientMetric: -0.9910 - val_loss: -0.6279 - val_Jaccard: 0.4610 - val_Sensitivity: 0.4992 - val_Specificity: 0.9757 - val_DiceCoefficientMetric: -0.6279
+Epoch 47/100
+16/16 [==============================] - 2s 113ms/step - loss: -0.9914 - Jaccard: 0.9830 - Sensitivity: 0.9975 - Specificity: 0.9988 - DiceCoefficientMetric: -0.9914 - val_loss: -0.6000 - val_Jaccard: 0.4346 - val_Sensitivity: 0.4690 - val_Specificity: 0.9788 - val_DiceCoefficientMetric: -0.6000
+Epoch 48/100
+16/16 [==============================] - 2s 112ms/step - loss: -0.9916 - Jaccard: 0.9834 - Sensitivity: 0.9975 - Specificity: 0.9989 - DiceCoefficientMetric: -0.9916 - val_loss: -0.6039 - val_Jaccard: 0.4394 - val_Sensitivity: 0.4747 - val_Specificity: 0.9789 - val_DiceCoefficientMetric: -0.6039
+Epoch 49/100
+16/16 [==============================] - 2s 113ms/step - loss: -0.9916 - Jaccard: 0.9833 - Sensitivity: 0.9971 - Specificity: 0.9988 - DiceCoefficientMetric: -0.9916 - val_loss: -0.6103 - val_Jaccard: 0.4454 - val_Sensitivity: 0.4822 - val_Specificity: 0.9774 - val_DiceCoefficientMetric: -0.6103
+Epoch 50/100
+16/16 [==============================] - 2s 111ms/step - loss: -0.9917 - Jaccard: 0.9835 - Sensitivity: 0.9969 - Specificity: 0.9988 - DiceCoefficientMetric: -0.9917 - val_loss: -0.6140 - val_Jaccard: 0.4494 - val_Sensitivity: 0.4872 - val_Specificity: 0.9762 - val_DiceCoefficientMetric: -0.6140
+Epoch 51/100
+16/16 [==============================] - 2s 111ms/step - loss: -0.9917 - Jaccard: 0.9835 - Sensitivity: 0.9966 - Specificity: 0.9988 - DiceCoefficientMetric: -0.9917 - val_loss: -0.6035 - val_Jaccard: 0.4389 - val_Sensitivity: 0.4752 - val_Specificity: 0.9754 - val_DiceCoefficientMetric: -0.6035
+Epoch 52/100
+ 4/16 [======>.......................] - ETA: 1s - loss: -0.9917 - Jaccard: 0.9835 - Sensitivity: 0.9968 - Specificity: 0.9990 - DiceCoefficientMetric: -0.9917
+Epoch 53/100=========================] - 2s 111ms/step - loss: -0.9917 - Jaccard: 0.9835 - Sensitivity: 0.9966 - Specificity: 0.9988 - DiceCoefficientMetric: -0.9917 - val_loss: -0.6035 - val_Jaccard: 0.4389 - val_Sensitivity: 0.4752 - val_Specificity: 0.9754 - val_DiceCoefficientMetric: -0.6035
+ 6/16 [==========>...................] - ETA: 1s - loss: -0.9922 - Jaccard: 0.9845 - Sensitivity: 0.9971 - Specificity: 0.9989 - DiceCoefficientMetric: -0.9922
+ 8/16 [==============>...............] - ETA: 0s - loss: -0.9927 - Jaccard: 0.9855 - Sensitivity: 0.9978 - Specificity: 0.9991 - DiceCoefficientMetric: -0.99270.9917 - val_loss: -0.6035 - val_Jaccard: 0.4389 - val_Sensitivity: 0.4752 - val_Specificity: 0.9754 - val_DiceCoefficientMetric: -0.6035
+16/16 [==============================] - 2s 112ms/step - loss: -0.9925 - Jaccard: 0.9852 - Sensitivity: 0.9977 - Specificity: 0.9990 - DiceCoefficientMetric: -0.9925 - val_loss: -0.5933 - val_Jaccard: 0.4302 - val_Sensitivity: 0.4619 - val_Specificity: 0.9806 - val_DiceCoefficientMetric: -0.5933
+Epoch 56/100=========================] - 2s 112ms/step - loss: -0.9925 - Jaccard: 0.9852 - Sensitivity: 0.9977 - Specificity: 0.9990 - DiceCoefficientMetric: -0.9925 - val_loss: -0.5933 - val_Jaccard: 0.4302 - val_Sensitivity: 0.4619 - val_Specificity: 0.9806 - val_DiceCoefficientMetric: -0.5933
+11/16 [===================>..........] - ETA: 0s - loss: -0.9929 - Jaccard: 0.9860 - Sensitivity: 0.9977 - Specificity: 0.9992 - DiceCoefficientMetric: -0.99290.9925 - val_loss: -0.5933 - val_Jaccard: 0.4302 - val_Sensitivity: 0.4619 - val_Specificity: 0.9806 - val_DiceCoefficientMetric: -0.5933
+11/16 [===================>..........] - ETA: 0s - loss: -0.9929 - Jaccard: 0.9860 - Sensitivity: 0.9977 - Specificity: 0.9992 - DiceCoefficientMetric: -0.99290.9925 - val_loss: -0.5933 - val_Jaccard: 0.4302 - val_Sensitivity: 0.4619 - val_Specificity: 0.9806 - val_DiceCoefficientMetric: -0.5933
+15/16 [===========================>..] - ETA: 0s - loss: -0.9929 - Jaccard: 0.9859 - Sensitivity: 0.9978 - Specificity: 0.9990 - DiceCoefficientMetric: -0.99290.9925 - val_loss: -0.5933 - val_Jaccard: 0.4302 - val_Sensitivity: 0.4619 - val_Specificity: 0.9806 - val_DiceCoefficientMetric: -0.5933
+15/16 [===========================>..] - ETA: 0s - loss: -0.9929 - Jaccard: 0.9859 - Sensitivity: 0.9978 - Specificity: 0.9990 - DiceCoefficientMetric: -0.99290.9925 - val_loss: -0.5933 - val_Jaccard: 0.4302 - val_Sensitivity: 0.4619 - val_Specificity: 0.9806 - val_DiceCoefficientMetric: -0.5933
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+16/16 [==============================] - 9s 617ms/step - loss: -0.9929 - Jaccard: 0.9859 - Sensitivity: 0.9978 - Specificity: 0.9990 - DiceCoefficientMetric: -0.9929 - val_loss: -0.6374 - val_Jaccard: 0.4769 - val_Sensitivity: 0.5197 - val_Specificity: 0.9756 - val_DiceCoefficientMetric: -0.6374
+16/16 [==============================] - 9s 617ms/step - loss: -0.9929 - Jaccard: 0.9859 - Sensitivity: 0.9978 - Specificity: 0.9990 - DiceCoefficientMetric: -0.9929 - val_loss: -0.6374 - val_Jaccard: 0.4769 - val_Sensitivity: 0.5197 - val_Specificity: 0.9756 - val_DiceCoefficientMetric: -0.6374
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 23). These functions will not be directly callable after loading.
+16/16 [==============================] - 2s 113ms/step - loss: -0.9928 - Jaccard: 0.9858 - Sensitivity: 0.9974 - Specificity: 0.9990 - DiceCoefficientMetric: -0.9928 - val_loss: -0.6360 - val_Jaccard: 0.4719 - val_Sensitivity: 0.5059 - val_Specificity: 0.9784 - val_DiceCoefficientMetric: -0.6360
+Epoch 62/100=========================] - 2s 113ms/step - loss: -0.9928 - Jaccard: 0.9858 - Sensitivity: 0.9974 - Specificity: 0.9990 - DiceCoefficientMetric: -0.9928 - val_loss: -0.6360 - val_Jaccard: 0.4719 - val_Sensitivity: 0.5059 - val_Specificity: 0.9784 - val_DiceCoefficientMetric: -0.6360
+10/16 [=================>............] - ETA: 0s - loss: -0.9920 - Jaccard: 0.9842 - Sensitivity: 0.9959 - Specificity: 0.9988 - DiceCoefficientMetric: -0.99200.9928 - val_loss: -0.6360 - val_Jaccard: 0.4719 - val_Sensitivity: 0.5059 - val_Specificity: 0.9784 - val_DiceCoefficientMetric: -0.6360
+16/16 [==============================] - 2s 115ms/step - loss: -0.9919 - Jaccard: 0.9840 - Sensitivity: 0.9957 - Specificity: 0.9987 - DiceCoefficientMetric: -0.9919 - val_loss: -0.5008 - val_Jaccard: 0.3405 - val_Sensitivity: 0.3551 - val_Specificity: 0.9863 - val_DiceCoefficientMetric: -0.5008
+Epoch 65/100=========================] - 2s 115ms/step - loss: -0.9919 - Jaccard: 0.9840 - Sensitivity: 0.9957 - Specificity: 0.9987 - DiceCoefficientMetric: -0.9919 - val_loss: -0.5008 - val_Jaccard: 0.3405 - val_Sensitivity: 0.3551 - val_Specificity: 0.9863 - val_DiceCoefficientMetric: -0.5008
+16/16 [==============================] - 2s 116ms/step - loss: -0.9930 - Jaccard: 0.9861 - Sensitivity: 0.9972 - Specificity: 0.9989 - DiceCoefficientMetric: -0.9930 - val_loss: -0.5893 - val_Jaccard: 0.4229 - val_Sensitivity: 0.4518 - val_Specificity: 0.9787 - val_DiceCoefficientMetric: -0.5893
+16/16 [==============================] - 2s 116ms/step - loss: -0.9930 - Jaccard: 0.9861 - Sensitivity: 0.9972 - Specificity: 0.9989 - DiceCoefficientMetric: -0.9930 - val_loss: -0.5893 - val_Jaccard: 0.4229 - val_Sensitivity: 0.4518 - val_Specificity: 0.9787 - val_DiceCoefficientMetric: -0.5893
+Epoch 68/100=========================] - 2s 116ms/step - loss: -0.9930 - Jaccard: 0.9861 - Sensitivity: 0.9972 - Specificity: 0.9989 - DiceCoefficientMetric: -0.9930 - val_loss: -0.5893 - val_Jaccard: 0.4229 - val_Sensitivity: 0.4518 - val_Specificity: 0.9787 - val_DiceCoefficientMetric: -0.5893
+16/16 [==============================] - 2s 112ms/step - loss: -0.9935 - Jaccard: 0.9871 - Sensitivity: 0.9973 - Specificity: 0.9992 - DiceCoefficientMetric: -0.9935 - val_loss: -0.6188 - val_Jaccard: 0.4535 - val_Sensitivity: 0.4887 - val_Specificity: 0.9743 - val_DiceCoefficientMetric: -0.6188
+Epoch 71/100=========================] - 2s 112ms/step - loss: -0.9935 - Jaccard: 0.9871 - Sensitivity: 0.9973 - Specificity: 0.9992 - DiceCoefficientMetric: -0.9935 - val_loss: -0.6188 - val_Jaccard: 0.4535 - val_Sensitivity: 0.4887 - val_Specificity: 0.9743 - val_DiceCoefficientMetric: -0.6188
+ 6/16 [==========>...................] - ETA: 1s - loss: -0.9935 - Jaccard: 0.9870 - Sensitivity: 0.9973 - Specificity: 0.9990 - DiceCoefficientMetric: -0.99350.9935 - val_loss: -0.6188 - val_Jaccard: 0.4535 - val_Sensitivity: 0.4887 - val_Specificity: 0.9743 - val_DiceCoefficientMetric: -0.6188
+16/16 [==============================] - 2s 111ms/step - loss: -0.9935 - Jaccard: 0.9871 - Sensitivity: 0.9973 - Specificity: 0.9990 - DiceCoefficientMetric: -0.9935 - val_loss: -0.6117 - val_Jaccard: 0.4463 - val_Sensitivity: 0.4752 - val_Specificity: 0.9782 - val_DiceCoefficientMetric: -0.6117
+Epoch 74/100=========================] - 2s 111ms/step - loss: -0.9935 - Jaccard: 0.9871 - Sensitivity: 0.9973 - Specificity: 0.9990 - DiceCoefficientMetric: -0.9935 - val_loss: -0.6117 - val_Jaccard: 0.4463 - val_Sensitivity: 0.4752 - val_Specificity: 0.9782 - val_DiceCoefficientMetric: -0.6117
+13/16 [=======================>......] - ETA: 0s - loss: -0.9942 - Jaccard: 0.9885 - Sensitivity: 0.9984 - Specificity: 0.9993 - DiceCoefficientMetric: -0.99420.9935 - val_loss: -0.6117 - val_Jaccard: 0.4463 - val_Sensitivity: 0.4752 - val_Specificity: 0.9782 - val_DiceCoefficientMetric: -0.6117
+Epoch 77/100=========================] - 2s 110ms/step - loss: -0.9942 - Jaccard: 0.9885 - Sensitivity: 0.9983 - Specificity: 0.9993 - DiceCoefficientMetric: -0.9942 - val_loss: -0.6405 - val_Jaccard: 0.4776 - val_Sensitivity: 0.5177 - val_Specificity: 0.9735 - val_DiceCoefficientMetric: -0.6405
+ 2/16 [==>...........................] - ETA: 1s - loss: -0.9944 - Jaccard: 0.9889 - Sensitivity: 0.9983 - Specificity: 0.9995 - DiceCoefficientMetric: -0.99440.9942 - val_loss: -0.6405 - val_Jaccard: 0.4776 - val_Sensitivity: 0.5177 - val_Specificity: 0.9735 - val_DiceCoefficientMetric: -0.6405
+16/16 [==============================] - 2s 115ms/step - loss: -0.9947 - Jaccard: 0.9894 - Sensitivity: 0.9987 - Specificity: 0.9995 - DiceCoefficientMetric: -0.9947 - val_loss: -0.6442 - val_Jaccard: 0.4813 - val_Sensitivity: 0.5227 - val_Specificity: 0.9736 - val_DiceCoefficientMetric: -0.6442
+Epoch 80/100=========================] - 2s 115ms/step - loss: -0.9947 - Jaccard: 0.9894 - Sensitivity: 0.9987 - Specificity: 0.9995 - DiceCoefficientMetric: -0.9947 - val_loss: -0.6442 - val_Jaccard: 0.4813 - val_Sensitivity: 0.5227 - val_Specificity: 0.9736 - val_DiceCoefficientMetric: -0.6442
+ 2/16 [==>...........................] - ETA: 1s - loss: -0.9949 - Jaccard: 0.9898 - Sensitivity: 0.9992 - Specificity: 0.9995 - DiceCoefficientMetric: -0.99490.9947 - val_loss: -0.6442 - val_Jaccard: 0.4813 - val_Sensitivity: 0.5227 - val_Specificity: 0.9736 - val_DiceCoefficientMetric: -0.6442
+16/16 [==============================] - 2s 115ms/step - loss: -0.9949 - Jaccard: 0.9899 - Sensitivity: 0.9991 - Specificity: 0.9995 - DiceCoefficientMetric: -0.9949 - val_loss: -0.6440 - val_Jaccard: 0.4811 - val_Sensitivity: 0.5262 - val_Specificity: 0.9715 - val_DiceCoefficientMetric: -0.6440
+Epoch 83/100=========================] - 2s 115ms/step - loss: -0.9949 - Jaccard: 0.9899 - Sensitivity: 0.9991 - Specificity: 0.9995 - DiceCoefficientMetric: -0.9949 - val_loss: -0.6440 - val_Jaccard: 0.4811 - val_Sensitivity: 0.5262 - val_Specificity: 0.9715 - val_DiceCoefficientMetric: -0.6440
+ 7/16 [============>.................] - ETA: 1s - loss: -0.9950 - Jaccard: 0.9901 - Sensitivity: 0.9990 - Specificity: 0.9996 - DiceCoefficientMetric: -0.99500.9949 - val_loss: -0.6440 - val_Jaccard: 0.4811 - val_Sensitivity: 0.5262 - val_Specificity: 0.9715 - val_DiceCoefficientMetric: -0.6440
+16/16 [==============================] - 2s 113ms/step - loss: -0.9950 - Jaccard: 0.9901 - Sensitivity: 0.9990 - Specificity: 0.9996 - DiceCoefficientMetric: -0.9950 - val_loss: -0.6398 - val_Jaccard: 0.4770 - val_Sensitivity: 0.5174 - val_Specificity: 0.9739 - val_DiceCoefficientMetric: -0.6398
+Epoch 86/100=========================] - 2s 113ms/step - loss: -0.9950 - Jaccard: 0.9901 - Sensitivity: 0.9990 - Specificity: 0.9996 - DiceCoefficientMetric: -0.9950 - val_loss: -0.6398 - val_Jaccard: 0.4770 - val_Sensitivity: 0.5174 - val_Specificity: 0.9739 - val_DiceCoefficientMetric: -0.6398
+13/16 [=======================>......] - ETA: 0s - loss: -0.9952 - Jaccard: 0.9904 - Sensitivity: 0.9992 - Specificity: 0.9996 - DiceCoefficientMetric: -0.99520.9950 - val_loss: -0.6398 - val_Jaccard: 0.4770 - val_Sensitivity: 0.5174 - val_Specificity: 0.9739 - val_DiceCoefficientMetric: -0.6398
+16/16 [==============================] - 2s 113ms/step - loss: -0.9952 - Jaccard: 0.9904 - Sensitivity: 0.9993 - Specificity: 0.9996 - DiceCoefficientMetric: -0.9952 - val_loss: -0.6288 - val_Jaccard: 0.4648 - val_Sensitivity: 0.5041 - val_Specificity: 0.9743 - val_DiceCoefficientMetric: -0.6288
+ 1/16 [>.............................] - ETA: 1s - loss: -0.9947 - Jaccard: 0.9894 - Sensitivity: 0.9996 - Specificity: 0.9996 - DiceCoefficientMetric: -0.99470.9952 - val_loss: -0.6288 - val_Jaccard: 0.4648 - val_Sensitivity: 0.5041 - val_Specificity: 0.9743 - val_DiceCoefficientMetric: -0.6288
+16/16 [==============================] - 2s 113ms/step - loss: -0.9953 - Jaccard: 0.9906 - Sensitivity: 0.9992 - Specificity: 0.9997 - DiceCoefficientMetric: -0.9953 - val_loss: -0.6312 - val_Jaccard: 0.4674 - val_Sensitivity: 0.5082 - val_Specificity: 0.9734 - val_DiceCoefficientMetric: -0.6312
+Epoch 92/100=========================] - 2s 113ms/step - loss: -0.9953 - Jaccard: 0.9906 - Sensitivity: 0.9992 - Specificity: 0.9997 - DiceCoefficientMetric: -0.9953 - val_loss: -0.6312 - val_Jaccard: 0.4674 - val_Sensitivity: 0.5082 - val_Specificity: 0.9734 - val_DiceCoefficientMetric: -0.6312
+ 7/16 [============>.................] - ETA: 1s - loss: -0.9953 - Jaccard: 0.9907 - Sensitivity: 0.9994 - Specificity: 0.9997 - DiceCoefficientMetric: -0.99530.9953 - val_loss: -0.6312 - val_Jaccard: 0.4674 - val_Sensitivity: 0.5082 - val_Specificity: 0.9734 - val_DiceCoefficientMetric: -0.6312
+16/16 [==============================] - 2s 113ms/step - loss: -0.9954 - Jaccard: 0.9907 - Sensitivity: 0.9993 - Specificity: 0.9997 - DiceCoefficientMetric: -0.9954 - val_loss: -0.6242 - val_Jaccard: 0.4609 - val_Sensitivity: 0.4993 - val_Specificity: 0.9744 - val_DiceCoefficientMetric: -0.6242
+Epoch 95/100=========================] - 2s 113ms/step - loss: -0.9954 - Jaccard: 0.9907 - Sensitivity: 0.9993 - Specificity: 0.9997 - DiceCoefficientMetric: -0.9954 - val_loss: -0.6242 - val_Jaccard: 0.4609 - val_Sensitivity: 0.4993 - val_Specificity: 0.9744 - val_DiceCoefficientMetric: -0.6242
+12/16 [=====================>........] - ETA: 0s - loss: -0.9954 - Jaccard: 0.9907 - Sensitivity: 0.9992 - Specificity: 0.9997 - DiceCoefficientMetric: -0.99540.9954 - val_loss: -0.6242 - val_Jaccard: 0.4609 - val_Sensitivity: 0.4993 - val_Specificity: 0.9744 - val_DiceCoefficientMetric: -0.6242
+16/16 [==============================] - 2s 114ms/step - loss: -0.9954 - Jaccard: 0.9908 - Sensitivity: 0.9993 - Specificity: 0.9997 - DiceCoefficientMetric: -0.9954 - val_loss: -0.6168 - val_Jaccard: 0.4530 - val_Sensitivity: 0.4904 - val_Specificity: 0.9752 - val_DiceCoefficientMetric: -0.6168
+Epoch 98/100=========================] - 2s 114ms/step - loss: -0.9954 - Jaccard: 0.9908 - Sensitivity: 0.9993 - Specificity: 0.9997 - DiceCoefficientMetric: -0.9954 - val_loss: -0.6168 - val_Jaccard: 0.4530 - val_Sensitivity: 0.4904 - val_Specificity: 0.9752 - val_DiceCoefficientMetric: -0.6168
+13/16 [=======================>......] - ETA: 0s - loss: -0.9953 - Jaccard: 0.9907 - Sensitivity: 0.9991 - Specificity: 0.9997 - DiceCoefficientMetric: -0.99530.9954 - val_loss: -0.6168 - val_Jaccard: 0.4530 - val_Sensitivity: 0.4904 - val_Specificity: 0.9752 - val_DiceCoefficientMetric: -0.6168
+16/16 [==============================] - 2s 115ms/step - loss: -0.9954 - Jaccard: 0.9908 - Sensitivity: 0.9991 - Specificity: 0.9997 - DiceCoefficientMetric: -0.9954 - val_loss: -0.6316 - val_Jaccard: 0.4685 - val_Sensitivity: 0.5132 - val_Specificity: 0.9710 - val_DiceCoefficientMetric: -0.6316
+code\gcpds\DataSet\dataset===========] - 2s 115ms/step - loss: -0.9954 - Jaccard: 0.9908 - Sensitivity: 0.9991 - Specificity: 0.9997 - DiceCoefficientMetric: -0.9954 - val_loss: -0.6316 - val_Jaccard: 0.4685 - val_Sensitivity: 0.5132 - val_Specificity: 0.9710 - val_DiceCoefficientMetric: -0.6316
+code\gcpds\DataSet\dataset===========] - 2s 115ms/step - loss: -0.9954 - Jaccard: 0.9908 - Sensitivity: 0.9991 - Specificity: 0.9997 - DiceCoefficientMetric: -0.9954 - val_loss: -0.6316 - val_Jaccard: 0.4685 - val_Sensitivity: 0.5132 - val_Specificity: 0.9710 - val_DiceCoefficientMetric: -0.6316

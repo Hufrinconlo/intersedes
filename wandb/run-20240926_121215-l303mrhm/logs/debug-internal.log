@@ -1,0 +1,80 @@
+2024-09-26 12:12:15,389 INFO    StreamThr :23824 [internal.py:wandb_internal():86] W&B internal server running at pid: 23824, started at: 2024-09-26 12:12:15.389745
+2024-09-26 12:12:15,389 DEBUG   HandlerThread:23824 [handler.py:handle_request():146] handle_request: status
+2024-09-26 12:12:15,402 INFO    WriterThread:23824 [datastore.py:open_for_write():85] open: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\run-l303mrhm.wandb
+2024-09-26 12:12:15,402 DEBUG   SenderThread:23824 [sender.py:send():380] send: header
+2024-09-26 12:12:15,429 DEBUG   SenderThread:23824 [sender.py:send():380] send: run
+2024-09-26 12:12:16,046 INFO    SenderThread:23824 [dir_watcher.py:__init__():211] watching files in: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files
+2024-09-26 12:12:16,046 INFO    SenderThread:23824 [sender.py:_start_run_threads():1124] run started: l303mrhm with start time 1727370735.389745
+2024-09-26 12:12:16,063 DEBUG   HandlerThread:23824 [handler.py:handle_request():146] handle_request: check_version
+2024-09-26 12:12:16,063 DEBUG   SenderThread:23824 [sender.py:send_request():407] send_request: check_version
+2024-09-26 12:12:16,162 DEBUG   HandlerThread:23824 [handler.py:handle_request():146] handle_request: run_start
+2024-09-26 12:12:16,182 DEBUG   HandlerThread:23824 [system_info.py:__init__():32] System info init
+2024-09-26 12:12:16,182 DEBUG   HandlerThread:23824 [system_info.py:__init__():47] System info init done
+2024-09-26 12:12:16,182 INFO    HandlerThread:23824 [system_monitor.py:start():194] Starting system monitor
+2024-09-26 12:12:16,182 INFO    SystemMonitor:23824 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-26 12:12:16,182 INFO    HandlerThread:23824 [system_monitor.py:probe():214] Collecting system info
+2024-09-26 12:12:16,182 INFO    SystemMonitor:23824 [interfaces.py:start():190] Started cpu monitoring
+2024-09-26 12:12:16,182 INFO    SystemMonitor:23824 [interfaces.py:start():190] Started disk monitoring
+2024-09-26 12:12:16,182 INFO    SystemMonitor:23824 [interfaces.py:start():190] Started gpu monitoring
+2024-09-26 12:12:16,189 INFO    SystemMonitor:23824 [interfaces.py:start():190] Started memory monitoring
+2024-09-26 12:12:16,196 INFO    SystemMonitor:23824 [interfaces.py:start():190] Started network monitoring
+2024-09-26 12:12:16,197 DEBUG   HandlerThread:23824 [system_info.py:probe():196] Probing system
+2024-09-26 12:12:16,197 DEBUG   HandlerThread:23824 [system_info.py:_probe_git():181] Probing git
+2024-09-26 12:12:16,288 DEBUG   HandlerThread:23824 [system_info.py:_probe_git():189] Probing git done
+2024-09-26 12:12:16,288 DEBUG   HandlerThread:23824 [system_info.py:probe():244] Probing system done
+2024-09-26 12:12:16,288 DEBUG   HandlerThread:23824 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.10.14', 'heartbeatAt': '2024-09-26T17:12:16.197030', 'startedAt': '2024-09-26T17:12:15.379621', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'c:\\Users\\Estudiantes\\Documents\\copy\\Mamitas-Unal\\code\\trains.py', 'codePathLocal': 'code\\trains.py', 'codePath': 'code\\trains.py', 'git': {'remote': 'https://github.com/Hufrinconlo/intersedes.git', 'commit': '30f5235c79879dad53b9bb6404649a2f99847f34'}, 'email': 'hufrinconlo@unal.edu.co', 'root': 'C:/Users/Estudiantes/Documents/copy/Mamitas-Unal', 'host': 'DESKTOP-5G1CH00', 'username': 'Estudiantes', 'executable': 'C:\\Users\\Estudiantes\\miniconda3\\envs\\mamitasHugo\\python.exe', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 3200.0, 'min': 0.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 3200.0, 'min': 0.0, 'max': 3200.0}], 'disk': {'/': {'total': 951.1415977478027, 'used': 225.36309814453125}}, 'gpu': 'NVIDIA RTX A2000 12GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX A2000 12GB', 'memory_total': 12878610432}], 'memory': {'total': 63.69602584838867}}
+2024-09-26 12:12:16,288 INFO    HandlerThread:23824 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-26 12:12:16,288 INFO    HandlerThread:23824 [system_monitor.py:probe():227] Publishing system info
+2024-09-26 12:12:16,288 DEBUG   HandlerThread:23824 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-09-26 12:12:16,288 DEBUG   HandlerThread:23824 [system_info.py:_save_pip():68] Saving pip packages done
+2024-09-26 12:12:16,288 DEBUG   HandlerThread:23824 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-09-26 12:12:17,063 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\requirements.txt
+2024-09-26 12:12:17,063 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\conda-environment.yaml
+2024-09-26 12:12:17,614 DEBUG   HandlerThread:23824 [system_info.py:_save_conda():87] Saving conda packages done
+2024-09-26 12:12:17,614 INFO    HandlerThread:23824 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-26 12:12:17,614 DEBUG   SenderThread:23824 [sender.py:send():380] send: files
+2024-09-26 12:12:17,614 INFO    SenderThread:23824 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-09-26 12:12:17,629 DEBUG   HandlerThread:23824 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-26 12:12:17,629 DEBUG   SenderThread:23824 [sender.py:send_request():407] send_request: stop_status
+2024-09-26 12:12:17,630 DEBUG   HandlerThread:23824 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-26 12:12:17,845 DEBUG   SenderThread:23824 [sender.py:send():380] send: telemetry
+2024-09-26 12:12:18,072 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\conda-environment.yaml
+2024-09-26 12:12:18,072 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\wandb-metadata.json
+2024-09-26 12:12:18,589 INFO    wandb-upload_0:23824 [upload_job.py:push():131] Uploaded file C:\Users\ESTUDI~1\AppData\Local\Temp\tmpozzx78c1wandb\x2eahftl-wandb-metadata.json
+2024-09-26 12:12:20,873 DEBUG   HandlerThread:23824 [handler.py:handle_request():146] handle_request: status_report
+2024-09-26 12:12:22,494 DEBUG   SenderThread:23824 [sender.py:send():380] send: telemetry
+2024-09-26 12:12:22,494 DEBUG   SenderThread:23824 [sender.py:send():380] send: telemetry
+2024-09-26 12:12:22,494 DEBUG   SenderThread:23824 [sender.py:send():380] send: files
+2024-09-26 12:12:22,494 INFO    SenderThread:23824 [sender.py:_save_file():1380] saving file model-best.h5 with policy live
+2024-09-26 12:12:22,494 DEBUG   SenderThread:23824 [sender.py:send():380] send: telemetry
+2024-09-26 12:12:22,494 DEBUG   HandlerThread:23824 [handler.py:handle_request():146] handle_request: get_summary
+2024-09-26 12:12:23,097 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\output.log
+2024-09-26 12:12:24,478 DEBUG   SenderThread:23824 [sender.py:send():380] send: files
+2024-09-26 12:12:24,478 INFO    SenderThread:23824 [sender.py:_save_file():1380] saving file media\graph\graph_summary_dc8b40d93402e859b859.graph.json with policy now
+2024-09-26 12:12:24,478 DEBUG   SenderThread:23824 [sender.py:send_request():407] send_request: summary_record
+2024-09-26 12:12:24,478 INFO    SenderThread:23824 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-09-26 12:12:24,913 INFO    wandb-upload_0:23824 [upload_job.py:push():131] Uploaded file C:\Users\ESTUDI~1\AppData\Local\Temp\tmpozzx78c1wandb\13mtqti2-media/graph/graph_summary_dc8b40d93402e859b859.graph.json
+2024-09-26 12:12:25,124 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\output.log
+2024-09-26 12:12:25,125 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\wandb-summary.json
+2024-09-26 12:12:25,125 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\media\graph\graph_summary_dc8b40d93402e859b859.graph.json
+2024-09-26 12:12:25,126 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\media
+2024-09-26 12:12:25,126 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\media\graph
+2024-09-26 12:12:25,596 INFO    wandb-upload_0:23824 [upload_job.py:push():131] Uploaded file C:\Users\ESTUDI~1\AppData\Local\Temp\tmpozzx78c1wandb\d9trifsc-media/graph/graph_summary_dc8b40d93402e859b859.graph.json
+2024-09-26 12:12:26,284 DEBUG   HandlerThread:23824 [handler.py:handle_request():146] handle_request: status_report
+2024-09-26 12:12:27,146 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\output.log
+2024-09-26 12:12:29,164 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\output.log
+2024-09-26 12:12:31,184 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\output.log
+2024-09-26 12:12:31,295 DEBUG   HandlerThread:23824 [handler.py:handle_request():146] handle_request: status_report
+2024-09-26 12:12:32,642 DEBUG   HandlerThread:23824 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-26 12:12:32,642 DEBUG   HandlerThread:23824 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-26 12:12:32,642 DEBUG   SenderThread:23824 [sender.py:send_request():407] send_request: stop_status
+2024-09-26 12:12:33,195 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\output.log
+2024-09-26 12:12:35,210 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\output.log
+2024-09-26 12:12:36,345 DEBUG   HandlerThread:23824 [handler.py:handle_request():146] handle_request: status_report
+2024-09-26 12:12:37,230 INFO    Thread-16 :23824 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_121215-l303mrhm\files\output.log
+2024-09-26 12:12:38,331 INFO    cpu       :23824 [interfaces.py:monitor():140] Process cpu has exited.
+2024-09-26 12:12:38,331 DEBUG   SystemMonitor:23824 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-26 12:12:38,331 DEBUG   SystemMonitor:23824 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-26 12:12:38,336 DEBUG   SystemMonitor:23824 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-26 12:12:38,345 DEBUG   SenderThread:23824 [sender.py:send():380] send: stats
+2024-09-26 12:12:38,346 INFO    MainThread:23824 [internal.py:handle_exit():76] Internal process exited

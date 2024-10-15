@@ -1,0 +1,224 @@
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_setup.py:_flush():76] Configure stats pid to 30356
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Estudiantes\.config\wandb\settings
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\settings
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'weak_supervised_learning', 'entity': 'mamitas', 'api_key': '***REDACTED***', 'root_dir': 'C:\\Users\\Estudiantes\\Documents\\copy\\Mamitas-Unal', 'run_id': 'if3ge4vq', 'sweep_param_path': 'C:\\Users\\Estudiantes\\Documents\\copy\\Mamitas-Unal\\wandb\\sweep-grzo9tov\\config-if3ge4vq.yaml', 'sweep_id': 'grzo9tov'}
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'code\\trains.py', 'program_abspath': 'c:\\Users\\Estudiantes\\Documents\\copy\\Mamitas-Unal\\code\\trains.py', 'program': 'c:\\Users\\Estudiantes\\Documents\\copy\\Mamitas-Unal\\code\\trains.py'}
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_init.py:_log_setup():524] Logging user logs to C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\logs\debug.log
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_init.py:_log_setup():525] Logging internal logs to C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\logs\debug-internal.log
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_init.py:init():564] calling init triggers
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_init.py:init():571] wandb.init called with sweep_config: {'dataset': 'infrared_thermal_feet', 'model': 'f_b_s'}
+config: {}
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_init.py:init():614] starting backend
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_init.py:init():618] setting up manager
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-10-15 10:29:38,669 INFO    Thread-1229 (_run_job):30356 [wandb_init.py:init():624] backend started and connected
+2024-10-15 10:29:38,695 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_config_callback():1342] config_cb None None {'dataset': 'infrared_thermal_feet', 'model': 'f_b_s'}
+2024-10-15 10:29:38,695 INFO    Thread-1229 (_run_job):30356 [wandb_init.py:init():716] updated telemetry
+2024-10-15 10:29:38,732 INFO    Thread-1229 (_run_job):30356 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-10-15 10:29:39,079 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_on_init():2254] communicating current version
+2024-10-15 10:29:39,173 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.18.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-10-15 10:29:39,173 INFO    Thread-1229 (_run_job):30356 [wandb_init.py:init():800] starting run threads in backend
+2024-10-15 10:29:40,325 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_console_start():2233] atexit reg
+2024-10-15 10:29:40,325 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2024-10-15 10:29:40,325 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2024-10-15 10:29:40,325 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_redirect():2178] Redirects installed.
+2024-10-15 10:29:40,325 INFO    Thread-1229 (_run_job):30356 [wandb_init.py:init():841] run started, returning control to user process
+2024-10-15 10:29:54,821 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:30:20,549 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:30:41,221 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:30:50,305 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:30:55,714 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:31:01,282 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:31:06,685 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:31:12,106 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:31:21,338 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:31:26,883 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:31:32,105 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:31:37,496 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:31:42,906 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:31:49,579 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:31:55,051 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:32:00,486 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:32:09,634 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:32:21,220 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:32:24,649 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:32:28,188 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:33:35,431 ERROR   Thread-1229 (_run_job):30356 [keras.py:_save_model():1012] `save_model()` using h5 format requires h5py. Could not import h5py.
+Traceback (most recent call last):
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\wandb\integration\keras\keras.py", line 1004, in _save_model
+    self.model.save(self.filepath, overwrite=True)
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\saving\hdf5_format.py", line 80, in save_model_to_hdf5
+    raise ImportError(
+ImportError: `save_model()` using h5 format requires h5py. Could not import h5py.
+2024-10-15 10:33:46,668 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_finish():1962] finishing run mamitas/weak_supervised_learning/if3ge4vq
+2024-10-15 10:33:46,668 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2024-10-15 10:33:46,668 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_restore():2185] restore
+2024-10-15 10:33:46,668 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_restore():2191] restore done
+2024-10-15 10:33:53,718 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2024-10-15 10:33:53,718 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2024-10-15 10:33:53,718 INFO    Thread-1229 (_run_job):30356 [wandb_run.py:_footer_sync_info():3719] logging synced files

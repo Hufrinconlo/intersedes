@@ -23,10 +23,12 @@ input_shape = 224,224,1
 sweep_config = {
     'method':'grid'
 }
-
+"""
+'u_r_s','u_r_s_m1','f_r_s','f_r_s_m1','r_r_s', 'r_r_s_m1'
+"""
 parameters_dict = {
     'model': {
-        'values':['f_b']#,'r_b','u_b','f_b_s_m3','r_b_s_m3','u_b_s_m3', 'f_b_s', 'r_b_s','u_b_s']
+        'values':['f_b','r_b','u_b','f_b_s_m3','r_b_s_m3','u_b_s_m3', 'f_b_s', 'r_b_s','u_b_s']
         },
     'dataset':{
         'values':['infrared_thermal_feet']
@@ -52,4 +54,4 @@ def train(config=None):
 import os
 os.environ["WANDB_API_KEY"] = "97361c7ad33016f07e43eabc7bc22555c00299c8"
 SWEEP_ID = sweep_id
-wandb.agent(SWEEP_ID, train, count=200, project='weak_supervised_learning')
+wandb.agent(SWEEP_ID, train, project='weak_supervised_learning')

@@ -1,0 +1,59 @@
+2024-09-26 11:49:17,097 INFO    StreamThr :5032 [internal.py:wandb_internal():86] W&B internal server running at pid: 5032, started at: 2024-09-26 11:49:17.097472
+2024-09-26 11:49:17,110 DEBUG   HandlerThread:5032 [handler.py:handle_request():146] handle_request: status
+2024-09-26 11:49:17,116 INFO    WriterThread:5032 [datastore.py:open_for_write():85] open: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_114917-3f7o2f6j\run-3f7o2f6j.wandb
+2024-09-26 11:49:17,116 DEBUG   SenderThread:5032 [sender.py:send():380] send: header
+2024-09-26 11:49:17,197 DEBUG   SenderThread:5032 [sender.py:send():380] send: run
+2024-09-26 11:49:17,502 INFO    SenderThread:5032 [dir_watcher.py:__init__():211] watching files in: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_114917-3f7o2f6j\files
+2024-09-26 11:49:17,502 INFO    SenderThread:5032 [sender.py:_start_run_threads():1124] run started: 3f7o2f6j with start time 1727369357.114966
+2024-09-26 11:49:17,519 DEBUG   HandlerThread:5032 [handler.py:handle_request():146] handle_request: check_version
+2024-09-26 11:49:17,519 DEBUG   SenderThread:5032 [sender.py:send_request():407] send_request: check_version
+2024-09-26 11:49:17,754 DEBUG   HandlerThread:5032 [handler.py:handle_request():146] handle_request: run_start
+2024-09-26 11:49:17,760 DEBUG   HandlerThread:5032 [system_info.py:__init__():32] System info init
+2024-09-26 11:49:17,760 DEBUG   HandlerThread:5032 [system_info.py:__init__():47] System info init done
+2024-09-26 11:49:17,760 INFO    HandlerThread:5032 [system_monitor.py:start():194] Starting system monitor
+2024-09-26 11:49:17,760 INFO    SystemMonitor:5032 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-26 11:49:17,760 INFO    HandlerThread:5032 [system_monitor.py:probe():214] Collecting system info
+2024-09-26 11:49:17,776 INFO    SystemMonitor:5032 [interfaces.py:start():190] Started cpu monitoring
+2024-09-26 11:49:17,776 INFO    SystemMonitor:5032 [interfaces.py:start():190] Started disk monitoring
+2024-09-26 11:49:17,776 INFO    SystemMonitor:5032 [interfaces.py:start():190] Started gpu monitoring
+2024-09-26 11:49:17,776 INFO    SystemMonitor:5032 [interfaces.py:start():190] Started memory monitoring
+2024-09-26 11:49:17,786 INFO    SystemMonitor:5032 [interfaces.py:start():190] Started network monitoring
+2024-09-26 11:49:17,792 DEBUG   HandlerThread:5032 [system_info.py:probe():196] Probing system
+2024-09-26 11:49:17,792 DEBUG   HandlerThread:5032 [system_info.py:_probe_git():181] Probing git
+2024-09-26 11:49:17,877 DEBUG   HandlerThread:5032 [system_info.py:_probe_git():189] Probing git done
+2024-09-26 11:49:17,877 DEBUG   HandlerThread:5032 [system_info.py:probe():244] Probing system done
+2024-09-26 11:49:17,877 DEBUG   HandlerThread:5032 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.10.14', 'heartbeatAt': '2024-09-26T16:49:17.792607', 'startedAt': '2024-09-26T16:49:17.097472', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'c:\\Users\\Estudiantes\\Documents\\copy\\Mamitas-Unal\\code\\trains.py', 'codePathLocal': 'code\\trains.py', 'codePath': 'code\\trains.py', 'git': {'remote': 'https://github.com/Hufrinconlo/intersedes.git', 'commit': '30f5235c79879dad53b9bb6404649a2f99847f34'}, 'email': 'hufrinconlo@unal.edu.co', 'root': 'C:/Users/Estudiantes/Documents/copy/Mamitas-Unal', 'host': 'DESKTOP-5G1CH00', 'username': 'Estudiantes', 'executable': 'C:\\Users\\Estudiantes\\miniconda3\\envs\\mamitasHugo\\python.exe', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 3200.0, 'min': 0.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 3200.0, 'min': 0.0, 'max': 3200.0}], 'disk': {'/': {'total': 951.1415977478027, 'used': 225.35816192626953}}, 'gpu': 'NVIDIA RTX A2000 12GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX A2000 12GB', 'memory_total': 12878610432}], 'memory': {'total': 63.69602584838867}}
+2024-09-26 11:49:17,877 INFO    HandlerThread:5032 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-26 11:49:17,877 INFO    HandlerThread:5032 [system_monitor.py:probe():227] Publishing system info
+2024-09-26 11:49:17,877 DEBUG   HandlerThread:5032 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-09-26 11:49:17,883 DEBUG   HandlerThread:5032 [system_info.py:_save_pip():68] Saving pip packages done
+2024-09-26 11:49:17,883 DEBUG   HandlerThread:5032 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-09-26 11:49:18,523 INFO    Thread-16 :5032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_114917-3f7o2f6j\files\requirements.txt
+2024-09-26 11:49:18,523 INFO    Thread-16 :5032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_114917-3f7o2f6j\files\conda-environment.yaml
+2024-09-26 11:49:20,944 DEBUG   HandlerThread:5032 [system_info.py:_save_conda():87] Saving conda packages done
+2024-09-26 11:49:20,944 INFO    HandlerThread:5032 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-26 11:49:20,961 DEBUG   SenderThread:5032 [sender.py:send():380] send: files
+2024-09-26 11:49:20,961 INFO    SenderThread:5032 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-09-26 11:49:20,980 DEBUG   HandlerThread:5032 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-26 11:49:20,980 DEBUG   SenderThread:5032 [sender.py:send_request():407] send_request: stop_status
+2024-09-26 11:49:20,981 DEBUG   HandlerThread:5032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-26 11:49:21,234 DEBUG   SenderThread:5032 [sender.py:send():380] send: telemetry
+2024-09-26 11:49:21,533 INFO    Thread-16 :5032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_114917-3f7o2f6j\files\conda-environment.yaml
+2024-09-26 11:49:21,533 INFO    Thread-16 :5032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_114917-3f7o2f6j\files\wandb-metadata.json
+2024-09-26 11:49:21,926 INFO    wandb-upload_0:5032 [upload_job.py:push():131] Uploaded file C:\Users\ESTUDI~1\AppData\Local\Temp\tmpzb7990ohwandb\v1069j7k-wandb-metadata.json
+2024-09-26 11:49:22,241 DEBUG   HandlerThread:5032 [handler.py:handle_request():146] handle_request: status_report
+2024-09-26 11:49:26,785 DEBUG   SenderThread:5032 [sender.py:send():380] send: telemetry
+2024-09-26 11:49:26,785 DEBUG   SenderThread:5032 [sender.py:send():380] send: telemetry
+2024-09-26 11:49:26,785 DEBUG   SenderThread:5032 [sender.py:send():380] send: files
+2024-09-26 11:49:26,785 INFO    SenderThread:5032 [sender.py:_save_file():1380] saving file model-best.h5 with policy live
+2024-09-26 11:49:26,785 DEBUG   HandlerThread:5032 [handler.py:handle_request():146] handle_request: get_summary
+2024-09-26 11:49:26,785 DEBUG   SenderThread:5032 [sender.py:send():380] send: telemetry
+2024-09-26 11:49:27,577 INFO    Thread-16 :5032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_114917-3f7o2f6j\files\output.log
+2024-09-26 11:49:27,925 DEBUG   HandlerThread:5032 [handler.py:handle_request():146] handle_request: status_report
+2024-09-26 11:49:29,594 INFO    Thread-16 :5032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20240926_114917-3f7o2f6j\files\output.log
+2024-09-26 11:49:29,828 INFO    cpu       :5032 [interfaces.py:monitor():140] Process cpu has exited.
+2024-09-26 11:49:29,828 DEBUG   SystemMonitor:5032 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-26 11:49:29,828 DEBUG   SystemMonitor:5032 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-26 11:49:29,828 DEBUG   SystemMonitor:5032 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-26 11:49:29,844 DEBUG   SenderThread:5032 [sender.py:send():380] send: stats
+2024-09-26 11:49:29,877 INFO    MainThread:5032 [internal.py:handle_exit():76] Internal process exited

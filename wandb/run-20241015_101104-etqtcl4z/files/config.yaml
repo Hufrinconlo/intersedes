@@ -1,0 +1,44 @@
+wandb_version: 1
+
+dataset:
+  desc: null
+  value: infrared_thermal_feet
+model:
+  desc: null
+  value: f_b_s_m3
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.15
+    cli_version: 0.16.0
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1729005064.92901
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      2:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      3:
+      - 2
+      - 3
+      - 8
+      - 23
+      - 37
+      4: 3.10.15
+      5: 0.16.0
+      8:
+      - 3
+      - 5
+      10:
+      - 9
+      13: windows-amd64

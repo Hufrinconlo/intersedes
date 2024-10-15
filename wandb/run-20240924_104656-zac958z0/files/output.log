@@ -1,0 +1,94 @@
+code\gcpds\DataSet\dataset
+Epoch 1/100
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     52/Unknown - 31s 558ms/step - loss: -0.1171 - Jaccard: 0.0769 - Sensitivity: 0.5389 - Specificity: 0.4805 - DiceCoefficientMetric: -0.1302
+C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+52/52 [==============================] - 36s 655ms/step - loss: -0.1171 - Jaccard: 0.0769 - Sensitivity: 0.5389 - Specificity: 0.4805 - DiceCoefficientMetric: -0.1302 - val_loss: -0.4134 - val_Jaccard: 0.2638 - val_Sensitivity: 0.7807 - val_Specificity: 0.2237 - val_DiceCoefficientMetric: -0.4134
+Epoch 2/100
+
+
+
+
+
+
+
+
+
+
+52/52 [==============================] - ETA: 0s - loss: -0.1392 - Jaccard: 0.0986 - Sensitivity: 0.6033 - Specificity: 0.4715 - DiceCoefficientMetric: -0.1559
+C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+52/52 [==============================] - 34s 653ms/step - loss: -0.1392 - Jaccard: 0.0986 - Sensitivity: 0.6033 - Specificity: 0.4715 - DiceCoefficientMetric: -0.1559 - val_loss: -0.4591 - val_Jaccard: 0.3024 - val_Sensitivity: 0.9251 - val_Specificity: 0.2597 - val_DiceCoefficientMetric: -0.4591
+Epoch 3/100
+
+
+
+
+
+
+
+
+
+
+52/52 [==============================] - ETA: 0s - loss: -0.1614 - Jaccard: 0.1225 - Sensitivity: 0.5792 - Specificity: 0.5498 - DiceCoefficientMetric: -0.1816
+C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+52/52 [==============================] - 35s 673ms/step - loss: -0.1614 - Jaccard: 0.1225 - Sensitivity: 0.5792 - Specificity: 0.5498 - DiceCoefficientMetric: -0.1816 - val_loss: -0.5252 - val_Jaccard: 0.3624 - val_Sensitivity: 0.6544 - val_Specificity: 0.7415 - val_DiceCoefficientMetric: -0.5252
+Epoch 4/100
+
+
+
+
+
+
+
+
+
+
+
+
+52/52 [==============================] - ETA: 0s - loss: -0.1690 - Jaccard: 0.1313 - Sensitivity: 0.5570 - Specificity: 0.5872 - DiceCoefficientMetric: -0.1911
+C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+52/52 [==============================] - 38s 729ms/step - loss: -0.1690 - Jaccard: 0.1313 - Sensitivity: 0.5570 - Specificity: 0.5872 - DiceCoefficientMetric: -0.1911 - val_loss: -0.5310 - val_Jaccard: 0.3685 - val_Sensitivity: 0.6412 - val_Specificity: 0.7321 - val_DiceCoefficientMetric: -0.5310
+Epoch 5/100
+
+
+
+
+
+
+
+
+
+
+
+52/52 [==============================] - ETA: 0s - loss: -0.1898 - Jaccard: 0.1526 - Sensitivity: 0.5209 - Specificity: 0.6600 - DiceCoefficientMetric: -0.2145
+C:\Users\Estudiantes\miniconda3\envs\mamitasHugo\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Can't save model in the h5py format. The model will be saved as as an W&B Artifact in the 'tf' format.
+52/52 [==============================] - 34s 658ms/step - loss: -0.1898 - Jaccard: 0.1526 - Sensitivity: 0.5209 - Specificity: 0.6600 - DiceCoefficientMetric: -0.2145 - val_loss: -0.5910 - val_Jaccard: 0.4260 - val_Sensitivity: 0.7327 - val_Specificity: 0.7392 - val_DiceCoefficientMetric: -0.5910
+Epoch 6/100
+
+
+
+

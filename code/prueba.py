@@ -1,11 +1,21 @@
 import tensorflow as tf
+from gcpds.DataSet.infrared_thermal_feet import InfraredThermalFeet
+"""
+def test_tensorflow_gpu():
+    # Check for available GPUs
+    gpus = tf.config.list_physical_devices('GPU')
+    
+    if not gpus:
+        print("No GPU found. Please ensure that TensorFlow is installed with GPU support.")
+    else:
+        print(f"GPUs found: {gpus}")
 
-# List all physical devices
-print("Physical devices: ", tf.config.list_physical_devices())
+# Run the test function
+test_tensorflow_gpu()
+"""
 
-# Check for GPU
-print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+dataset = InfraredThermalFeet()
 
-# Print detailed information about GPU(s)
-for device in tf.config.list_physical_devices('GPU'):
-    print(device)
+x, y, z = dataset()
+
+print(len(x), len(y), len(z))

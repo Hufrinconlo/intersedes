@@ -1,5 +1,5 @@
 import wandb
-from wandb.keras import WandbCallback
+from wandb.integration.keras import WandbCallback
 from gcpds.loss.dice import DiceCoefficient
 from gcpds.metrics.jaccard import Jaccard 
 from gcpds.metrics.sensitivity import Sensitivity

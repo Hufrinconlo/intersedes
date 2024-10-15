@@ -15,10 +15,10 @@ from sklearn.model_selection import GroupShuffleSplit
 
 class InfraredThermalFeet():
 
-    already_unzipped = False
+    #already_unzipped = True
 
     def __init__(self, percentage = 30, split=[0.2,0.2], seed: int=42,
-                      dataset_path: str = "./gcpds/DataSet",
+                      dataset_path: str = ".\gcpds\DataSet",
                         *args, **kwargs):
 
         self.split = listify(split)
@@ -26,12 +26,14 @@ class InfraredThermalFeet():
         self.percentage = percentage
 
         # Local dataset path
+        dataset_path = os.path.join("code","gcpds","DataSet")
         self.__folder = dataset_path
         self.__path_images =  os.path.join(self.__folder, 'dataset')
 
-        if not InfraredThermalFeet.already_unzipped:
-            self.__set_env()
-            InfraredThermalFeet.already_unzipped = True
+        #if not InfraredThermalFeet.already_unzipped:
+        #    self.__set_env()
+        #    InfraredThermalFeet.already_unzipped = True
+        print(self.__path_images)
 
         self.file_images = glob(os.path.join(self.__path_images, '*[!(mask)].jpg'))
         self.file_images = list(map(lambda x: x[:-4], self.file_images))
@@ -186,28 +188,30 @@ class InfraredThermalFeet():
 
         if self.percentage < 100:
             num_train = int(len(train_imgs) * self.percentage / 100)
-            #num_val = int(len(val_imgs) * self.percentage / 100)
-            #num_test = int(len(test_imgs) * self.percentage / 100)
+            num_val = int(len(val_imgs) * self.percentage / 100)
+            num_test = int(len(test_imgs) * self.percentage / 100)
             
-            changed_train_imgs = train_imgs[num_train:]
-            unchanged_train_imgs = train_imgs[:num_train]
+            #changed_train_imgs = train_imgs[num_train:]
+            #unchanged_train_imgs = train_imgs[:num_train]
 
-            #val_imgs = val_imgs[:num_val]
-            #test_imgs = test_imgs[:num_test]
+            train_imgs = train_imgs[:num_train]
+            val_imgs = val_imgs[:num_val]
+            test_imgs = test_imgs[:num_test]
 
+            """
             def transform_train_images(files):
                 for file in files:
                     img, mask, id_image = InfraredThermalFeet.load_instance(file)
                     transformed_mask = InfraredThermalFeet.gen_dots(mask)
                     yield img, transformed_mask, id_image
-
+            
             changed_train_dataset = tf.data.Dataset.from_generator(
                 lambda: transform_train_images(changed_train_imgs),
                 output_signature=(tf.TensorSpec(shape=(None, None, 1), dtype=tf.float32),
                                 tf.TensorSpec(shape=(None, None, 1), dtype=tf.float32),
                                 tf.TensorSpec(shape=(), dtype=tf.string))
             )
-
+            """
             def load_train_images(files):
                 for file in files:
                     img, mask, id_image = InfraredThermalFeet.load_instance(file)
@@ -219,8 +223,8 @@ class InfraredThermalFeet():
                                 tf.TensorSpec(shape=(None, None, 1), dtype=tf.float32),
                                 tf.TensorSpec(shape=(), dtype=tf.string))
             )
-
-            train_dataset = unchanged_train_dataset.concatenate(changed_train_dataset)
+            """
+            train_dataset = unchanged_train_dataset.concatenate(changed_train_dataset)"""
         else:
         # If percentage is 100, all images are unchanged
             def load_train_images(files):
@@ -234,6 +238,7 @@ class InfraredThermalFeet():
                                 tf.TensorSpec(shape=(None, None, 1), dtype=tf.float32),
                                 tf.TensorSpec(shape=(), dtype=tf.string))
             )
+        train_dataset = self.__generate_tf_data(train_imgs)
         val_dataset = self.__generate_tf_data(val_imgs)
         test_dataset = self.__generate_tf_data(test_imgs)
 

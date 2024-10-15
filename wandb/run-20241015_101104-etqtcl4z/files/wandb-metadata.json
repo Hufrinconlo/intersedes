@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.15",
+    "heartbeatAt": "2024-10-15T15:11:05.464960",
+    "startedAt": "2024-10-15T15:11:04.913376",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\Estudiantes\\Documents\\copy\\Mamitas-Unal\\code\\trains.py",
+    "codePathLocal": "code\\trains.py",
+    "codePath": "code\\trains.py",
+    "git": {
+        "remote": "https://github.com/Hufrinconlo/intersedes.git",
+        "commit": "30f5235c79879dad53b9bb6404649a2f99847f34"
+    },
+    "email": "hufrinconlo@unal.edu.co",
+    "root": "C:/Users/Estudiantes/Documents/copy/Mamitas-Unal",
+    "host": "DESKTOP-5G1CH00",
+    "username": "Estudiantes",
+    "executable": "C:\\Users\\Estudiantes\\miniconda3\\envs\\mamitasHugo\\python.exe",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3200.0,
+        "min": 0.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3200.0,
+            "min": 0.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 951.1415977478027,
+            "used": 229.16854095458984
+        }
+    },
+    "gpu": "NVIDIA RTX A2000 12GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A2000 12GB",
+            "memory_total": 12878610432
+        }
+    ],
+    "memory": {
+        "total": 63.69602584838867
+    }
+}

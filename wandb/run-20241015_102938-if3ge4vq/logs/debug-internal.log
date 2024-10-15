@@ -1,0 +1,1285 @@
+2024-10-15 10:29:38,669 INFO    StreamThr :66188 [internal.py:wandb_internal():86] W&B internal server running at pid: 66188, started at: 2024-10-15 10:29:38.669794
+2024-10-15 10:29:38,685 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status
+2024-10-15 10:29:38,695 INFO    WriterThread:66188 [datastore.py:open_for_write():85] open: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\run-if3ge4vq.wandb
+2024-10-15 10:29:38,695 DEBUG   SenderThread:66188 [sender.py:send():380] send: header
+2024-10-15 10:29:38,732 DEBUG   SenderThread:66188 [sender.py:send():380] send: run
+2024-10-15 10:29:39,063 INFO    SenderThread:66188 [dir_watcher.py:__init__():211] watching files in: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files
+2024-10-15 10:29:39,063 INFO    SenderThread:66188 [sender.py:_start_run_threads():1124] run started: if3ge4vq with start time 1729006178.669794
+2024-10-15 10:29:39,079 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: check_version
+2024-10-15 10:29:39,079 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: check_version
+2024-10-15 10:29:39,173 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: run_start
+2024-10-15 10:29:39,220 DEBUG   HandlerThread:66188 [system_info.py:__init__():32] System info init
+2024-10-15 10:29:39,220 DEBUG   HandlerThread:66188 [system_info.py:__init__():47] System info init done
+2024-10-15 10:29:39,220 INFO    HandlerThread:66188 [system_monitor.py:start():194] Starting system monitor
+2024-10-15 10:29:39,220 INFO    SystemMonitor:66188 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-10-15 10:29:39,220 INFO    HandlerThread:66188 [system_monitor.py:probe():214] Collecting system info
+2024-10-15 10:29:39,220 INFO    SystemMonitor:66188 [interfaces.py:start():190] Started cpu monitoring
+2024-10-15 10:29:39,220 INFO    SystemMonitor:66188 [interfaces.py:start():190] Started disk monitoring
+2024-10-15 10:29:39,220 INFO    SystemMonitor:66188 [interfaces.py:start():190] Started gpu monitoring
+2024-10-15 10:29:39,236 INFO    SystemMonitor:66188 [interfaces.py:start():190] Started memory monitoring
+2024-10-15 10:29:39,236 INFO    SystemMonitor:66188 [interfaces.py:start():190] Started network monitoring
+2024-10-15 10:29:39,236 DEBUG   HandlerThread:66188 [system_info.py:probe():196] Probing system
+2024-10-15 10:29:39,246 DEBUG   HandlerThread:66188 [system_info.py:_probe_git():181] Probing git
+2024-10-15 10:29:39,315 DEBUG   HandlerThread:66188 [system_info.py:_probe_git():189] Probing git done
+2024-10-15 10:29:39,315 DEBUG   HandlerThread:66188 [system_info.py:probe():244] Probing system done
+2024-10-15 10:29:39,315 DEBUG   HandlerThread:66188 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.10.15', 'heartbeatAt': '2024-10-15T15:29:39.236490', 'startedAt': '2024-10-15T15:29:38.662785', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'c:\\Users\\Estudiantes\\Documents\\copy\\Mamitas-Unal\\code\\trains.py', 'codePathLocal': 'code\\trains.py', 'codePath': 'code\\trains.py', 'git': {'remote': 'https://github.com/Hufrinconlo/intersedes.git', 'commit': '30f5235c79879dad53b9bb6404649a2f99847f34'}, 'email': 'hufrinconlo@unal.edu.co', 'root': 'C:/Users/Estudiantes/Documents/copy/Mamitas-Unal', 'host': 'DESKTOP-5G1CH00', 'username': 'Estudiantes', 'executable': 'C:\\Users\\Estudiantes\\miniconda3\\envs\\mamitasHugo\\python.exe', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 3200.0, 'min': 0.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 3200.0, 'min': 0.0, 'max': 3200.0}], 'disk': {'/': {'total': 951.1415977478027, 'used': 231.00770950317383}}, 'gpu': 'NVIDIA RTX A2000 12GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX A2000 12GB', 'memory_total': 12878610432}], 'memory': {'total': 63.69602584838867}}
+2024-10-15 10:29:39,315 INFO    HandlerThread:66188 [system_monitor.py:probe():224] Finished collecting system info
+2024-10-15 10:29:39,315 INFO    HandlerThread:66188 [system_monitor.py:probe():227] Publishing system info
+2024-10-15 10:29:39,315 DEBUG   HandlerThread:66188 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-10-15 10:29:39,315 DEBUG   HandlerThread:66188 [system_info.py:_save_pip():68] Saving pip packages done
+2024-10-15 10:29:39,315 DEBUG   HandlerThread:66188 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-10-15 10:29:40,073 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\requirements.txt
+2024-10-15 10:29:40,073 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\conda-environment.yaml
+2024-10-15 10:29:40,309 DEBUG   HandlerThread:66188 [system_info.py:_save_conda():87] Saving conda packages done
+2024-10-15 10:29:40,309 INFO    HandlerThread:66188 [system_monitor.py:probe():229] Finished publishing system info
+2024-10-15 10:29:40,309 DEBUG   SenderThread:66188 [sender.py:send():380] send: files
+2024-10-15 10:29:40,325 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-10-15 10:29:40,325 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:29:40,325 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:29:40,325 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:29:40,531 DEBUG   SenderThread:66188 [sender.py:send():380] send: telemetry
+2024-10-15 10:29:40,999 INFO    wandb-upload_0:66188 [upload_job.py:push():131] Uploaded file C:\Users\ESTUDI~1\AppData\Local\Temp\tmppwicadq3wandb\916b2fnn-wandb-metadata.json
+2024-10-15 10:29:41,084 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\conda-environment.yaml
+2024-10-15 10:29:41,084 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-metadata.json
+2024-10-15 10:29:44,575 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:29:49,627 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:29:50,859 DEBUG   SenderThread:66188 [sender.py:send():380] send: telemetry
+2024-10-15 10:29:50,859 DEBUG   SenderThread:66188 [sender.py:send():380] send: telemetry
+2024-10-15 10:29:50,859 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: get_summary
+2024-10-15 10:29:50,859 DEBUG   SenderThread:66188 [sender.py:send():380] send: files
+2024-10-15 10:29:50,859 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file model-best.h5 with policy live
+2024-10-15 10:29:50,859 DEBUG   SenderThread:66188 [sender.py:send():380] send: telemetry
+2024-10-15 10:29:51,191 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:29:53,117 DEBUG   SenderThread:66188 [sender.py:send():380] send: files
+2024-10-15 10:29:53,117 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file media\graph\graph_summary_f7f2294024c62ff67606.graph.json with policy now
+2024-10-15 10:29:53,117 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:29:53,117 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:29:53,212 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:29:53,212 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\media\graph\graph_summary_f7f2294024c62ff67606.graph.json
+2024-10-15 10:29:53,212 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:29:53,212 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\media\graph
+2024-10-15 10:29:53,212 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\media
+2024-10-15 10:29:53,607 INFO    wandb-upload_0:66188 [upload_job.py:push():131] Uploaded file C:\Users\ESTUDI~1\AppData\Local\Temp\tmppwicadq3wandb\qkr4mrmi-media/graph/graph_summary_f7f2294024c62ff67606.graph.json
+2024-10-15 10:29:54,158 INFO    wandb-upload_0:66188 [upload_job.py:push():131] Uploaded file C:\Users\ESTUDI~1\AppData\Local\Temp\tmppwicadq3wandb\7r7w7nx9-media/graph/graph_summary_f7f2294024c62ff67606.graph.json
+2024-10-15 10:29:54,821 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:29:54,821 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:29:54,836 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:29:54,836 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:29:54,836 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:29:54,836 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:29:54,836 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:29:54,836 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:29:54,836 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:29:54,836 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:29:55,231 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:29:55,231 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:29:55,342 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:29:55,342 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:29:55,342 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:29:56,240 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:29:57,248 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:29:58,253 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables
+2024-10-15 10:29:58,253 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best
+2024-10-15 10:29:59,259 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\saved_model.pb
+2024-10-15 10:29:59,259 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\keras_metadata.pb
+2024-10-15 10:29:59,259 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.index
+2024-10-15 10:29:59,259 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.data-00000-of-00001
+2024-10-15 10:29:59,259 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables
+2024-10-15 10:29:59,259 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best
+2024-10-15 10:29:59,259 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\assets
+2024-10-15 10:30:00,265 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:00,597 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:30:05,643 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:30:10,351 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:30:10,366 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:30:10,366 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:30:11,567 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:30:12,388 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\config.yaml
+2024-10-15 10:30:16,731 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:30:18,940 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:30:18,940 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:30:20,170 INFO    wandb-upload_3:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpgswiqzk4
+2024-10-15 10:30:20,344 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpf8p2xys5
+2024-10-15 10:30:20,470 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:20,549 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:20,549 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:20,722 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpa_5voc39
+2024-10-15 10:30:23,509 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp4obyrbq6
+2024-10-15 10:30:24,279 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMTYzNA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': None}}
+2024-10-15 10:30:24,279 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:24,279 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:30:24,279 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:24,279 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:24,279 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:24,279 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:24,279 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:24,279 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:24,389 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:30:24,389 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:30:24,499 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:30:25,363 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:30:25,395 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:30:25,505 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:25,883 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:25,883 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:26,511 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:27,125 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:27,125 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:28,383 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:28,383 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:29,520 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmptxdew327
+2024-10-15 10:30:29,647 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:29,647 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:29,915 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp8jrz9ge7
+2024-10-15 10:30:30,435 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-15 10:30:30,459 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpm8sq5xmx
+2024-10-15 10:30:30,922 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:30,922 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:32,214 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:32,214 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:32,651 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpdd847b4n
+2024-10-15 10:30:33,399 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMTczOQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMTYzNA==', 'versionIndex': 0}}}
+2024-10-15 10:30:33,399 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:30:33,409 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:30:33,510 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:33,510 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:33,605 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:33,605 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:33,605 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:33,605 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:33,605 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:33,605 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:33,605 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:33,605 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:34,585 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:30:34,822 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:34,822 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:34,822 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:34,822 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:34,822 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:35,596 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:35,596 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:30:36,102 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:36,102 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:36,102 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:36,102 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:36,102 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:36,608 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:30:37,397 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:37,397 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:37,397 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:37,397 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:37,397 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:37,619 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:37,619 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:30:38,441 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:30:38,662 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:38,662 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:38,662 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:38,662 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:38,673 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:39,246 DEBUG   SystemMonitor:66188 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-10-15 10:30:39,246 DEBUG   SenderThread:66188 [sender.py:send():380] send: stats
+2024-10-15 10:30:39,641 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:39,641 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:30:39,941 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:39,941 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:39,951 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:39,951 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:39,951 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:40,368 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:30:40,400 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:30:40,400 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:30:40,652 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:30:41,221 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:41,221 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:41,221 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:41,221 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:41,221 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:41,221 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:41,221 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:41,221 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:41,221 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:41,662 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:41,662 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:30:42,674 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:43,687 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:44,365 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:30:44,697 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:44,697 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\saved_model.pb
+2024-10-15 10:30:44,697 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\keras_metadata.pb
+2024-10-15 10:30:44,697 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.index
+2024-10-15 10:30:44,697 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.data-00000-of-00001
+2024-10-15 10:30:44,697 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables_temp
+2024-10-15 10:30:44,697 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\assets
+2024-10-15 10:30:44,697 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best
+2024-10-15 10:30:44,697 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables
+2024-10-15 10:30:45,013 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:30:45,013 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:30:45,943 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpy29l5qdh
+2024-10-15 10:30:46,306 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp57r0kcnu
+2024-10-15 10:30:46,511 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:46,511 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:46,716 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:46,827 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmplcjdefk5
+2024-10-15 10:30:47,772 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:47,772 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:48,967 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp_gdb07f1
+2024-10-15 10:30:49,030 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:49,030 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:49,864 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMTkyMA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMTczOQ==', 'versionIndex': 1}}}
+2024-10-15 10:30:49,864 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:49,864 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:30:49,864 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:49,864 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:49,864 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:49,864 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:49,864 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:49,864 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:49,864 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:49,864 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:50,305 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:50,305 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:50,305 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:30:50,305 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:50,305 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:50,305 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:50,305 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:50,321 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:30:50,321 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:30:50,747 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:30:51,752 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:52,757 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:53,763 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables_temp\part-00000-of-00001.data-00000-of-00001.tempstate5130232948410362628
+2024-10-15 10:30:53,763 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables
+2024-10-15 10:30:53,763 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best
+2024-10-15 10:30:53,763 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables_temp
+2024-10-15 10:30:54,219 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:30:54,219 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:30:54,770 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:54,818 WARNING FileStreamThread:66188 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: 502 Server Error: Bad Gateway for url: https://api.wandb.ai/files/mamitas/weak_supervised_learning/if3ge4vq/file_stream. func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x0000027CE4DC6AD0>>, timeout=180), args: ('https://api.wandb.ai/files/mamitas/weak_supervised_learning/if3ge4vq/file_stream',), kwargs: {'json': {'files': {'wandb-summary.json': {'offset': 0, 'content': ['{"graph": {"_type": "graph-file", "sha256": "f7f2294024c62ff67606632a151a87b2516d49ffb8c67e852abf38b292b614cb", "size": 4614, "path": "media/graph/graph_summary_f7f2294024c62ff67606.graph.json"}}']}, 'output.log': {'offset': 2, 'content': ['2024-10-15T15:29:54.695492 14/16 [=========================>....] - ETA: 0s - loss: -0.3047 - Jaccard: 0.1851 - Sensitivity: 0.5307 - Specificity: 0.5069 - DiceCoefficientMetric: -0.3047\n']}}, 'dropped': 0}}
+2024-10-15 10:30:54,927 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpr2g_dxo3
+2024-10-15 10:30:55,368 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:30:55,399 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:30:55,447 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpq68p_uep
+2024-10-15 10:30:55,714 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:55,714 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:30:56,007 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpbtk66vac
+2024-10-15 10:30:56,785 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:30:58,412 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpz05jb0n9
+2024-10-15 10:30:59,768 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:31:00,446 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-15 10:31:01,282 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:01,282 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:03,720 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjAxNQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMTkyMA==', 'versionIndex': 2}}}
+2024-10-15 10:31:03,720 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:31:03,720 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:31:03,950 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:03,950 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:03,950 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:03,950 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:03,956 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:03,956 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:03,956 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:03,956 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:31:04,852 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpddp_zx4i
+2024-10-15 10:31:04,873 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:31:04,873 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\saved_model.pb
+2024-10-15 10:31:04,873 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.index
+2024-10-15 10:31:04,873 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.data-00000-of-00001
+2024-10-15 10:31:04,873 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\assets
+2024-10-15 10:31:04,873 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best
+2024-10-15 10:31:04,873 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables
+2024-10-15 10:31:05,157 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp0qnc97xr
+2024-10-15 10:31:05,157 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:31:05,667 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpo3etja8y
+2024-10-15 10:31:05,881 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:06,685 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:06,685 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:08,834 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmprp7nfy3y
+2024-10-15 10:31:09,624 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjIwMQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjAxNQ==', 'versionIndex': 3}}}
+2024-10-15 10:31:09,624 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:09,624 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:09,624 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:31:09,632 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:09,632 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:09,632 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:09,632 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:09,632 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:09,632 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:31:09,924 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:09,924 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:31:10,367 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpwzavidc9
+2024-10-15 10:31:10,383 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:31:10,399 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:31:10,620 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:31:10,756 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpvd9k1d7y
+2024-10-15 10:31:11,663 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpbqwpcax9
+2024-10-15 10:31:11,948 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:12,106 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:12,106 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:13,508 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpkmsp16mc
+2024-10-15 10:31:14,351 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjI1Nw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjIwMQ==', 'versionIndex': 4}}}
+2024-10-15 10:31:14,351 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:14,351 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:14,351 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:14,351 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:14,351 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:14,351 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:14,351 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:14,351 DEBUG   SenderThread:66188 [sender.py:send():380] send: stats
+2024-10-15 10:31:14,351 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:31:14,525 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:31:14,982 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:31:15,172 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp0hjyyz2x
+2024-10-15 10:31:15,518 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp75ic7c95
+2024-10-15 10:31:15,959 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpfldeszvs
+2024-10-15 10:31:15,959 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:31:15,991 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:17,486 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:17,486 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:18,250 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp3up7mhd9
+2024-10-15 10:31:18,759 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:18,759 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:19,090 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjMwNQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjI1Nw==', 'versionIndex': 5}}}
+2024-10-15 10:31:19,090 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:19,090 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:31:19,090 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:19,090 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:19,090 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:19,090 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:19,090 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:19,090 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:19,090 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:31:19,829 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp01sy5ccd
+2024-10-15 10:31:20,018 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:20,018 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:31:20,051 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:20,051 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:20,175 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpyop30j8l
+2024-10-15 10:31:20,803 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpvvzdwcmv
+2024-10-15 10:31:21,338 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:21,338 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:22,030 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:22,911 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmptvlolgp0
+2024-10-15 10:31:23,762 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjM0Nw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjMwNQ==', 'versionIndex': 6}}}
+2024-10-15 10:31:23,762 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:23,762 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:23,762 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:23,762 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:23,762 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:23,762 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:23,762 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:23,762 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:23,762 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:23,762 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:23,762 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:23,762 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:23,762 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:23,762 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:23,762 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:23,762 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:24,046 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:24,046 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:31:24,786 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:31:25,054 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\saved_model.pb
+2024-10-15 10:31:25,054 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\keras_metadata.pb
+2024-10-15 10:31:25,054 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.index
+2024-10-15 10:31:25,054 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.data-00000-of-00001
+2024-10-15 10:31:25,054 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\assets
+2024-10-15 10:31:25,054 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best
+2024-10-15 10:31:25,054 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables
+2024-10-15 10:31:25,370 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:31:25,370 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:31:25,386 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:31:25,417 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:31:26,064 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:26,206 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpfp3vbvoz
+2024-10-15 10:31:26,552 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpg78uxd9e
+2024-10-15 10:31:26,883 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:26,883 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:27,026 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpk50kr_dx
+2024-10-15 10:31:29,284 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpls4kch2l
+2024-10-15 10:31:30,057 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjQxOA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjM0Nw==', 'versionIndex': 7}}}
+2024-10-15 10:31:30,057 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:31:30,057 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:31:30,247 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:30,247 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:30,247 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:30,247 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:30,247 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:30,257 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:30,257 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:30,658 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:31:30,658 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:31:31,115 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:31:31,320 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpcrw_ar7d
+2024-10-15 10:31:31,590 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpwbog9__a
+2024-10-15 10:31:32,105 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:32,105 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:32,111 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp07yjk3qv
+2024-10-15 10:31:32,127 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:34,479 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpjutrjktk
+2024-10-15 10:31:35,411 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjQ3OA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjQxOA==', 'versionIndex': 8}}}
+2024-10-15 10:31:35,411 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:35,411 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:31:35,411 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:35,411 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:35,411 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:35,411 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:35,411 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:35,411 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:36,059 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:31:36,059 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:31:36,169 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:36,169 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:31:36,769 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp45o25ogo
+2024-10-15 10:31:37,047 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpwx2a6avk
+2024-10-15 10:31:37,179 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:37,496 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:37,496 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:37,559 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp1gj8qcsn
+2024-10-15 10:31:38,190 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:39,958 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpj6phmhi9
+2024-10-15 10:31:40,417 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:31:40,432 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:31:40,717 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjU2OA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjQ3OA==', 'versionIndex': 9}}}
+2024-10-15 10:31:40,717 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:40,717 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:31:40,717 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:40,732 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:40,732 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:40,732 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:40,732 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:40,732 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:40,732 DEBUG   SenderThread:66188 [sender.py:send():380] send: stats
+2024-10-15 10:31:40,732 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:31:41,221 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:41,221 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:31:41,221 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\saved_model.pb
+2024-10-15 10:31:41,221 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\keras_metadata.pb
+2024-10-15 10:31:41,221 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.index
+2024-10-15 10:31:41,221 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.data-00000-of-00001
+2024-10-15 10:31:41,221 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\assets
+2024-10-15 10:31:41,221 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best
+2024-10-15 10:31:41,221 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables
+2024-10-15 10:31:41,411 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:31:41,411 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:31:42,229 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:42,323 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmprlq2qhc7
+2024-10-15 10:31:42,607 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp7qy_o80g
+2024-10-15 10:31:42,906 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:42,906 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:43,204 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpvef4rcnz
+2024-10-15 10:31:45,392 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpnb8teafp
+2024-10-15 10:31:46,163 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjYzNA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjU2OA==', 'versionIndex': 10}}}
+2024-10-15 10:31:46,163 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:46,163 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:31:46,163 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:46,163 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:46,163 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:46,163 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:46,163 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:46,163 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:46,257 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:31:46,257 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables
+2024-10-15 10:31:46,257 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best
+2024-10-15 10:31:46,802 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:31:46,802 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:31:47,265 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:47,469 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpk9jp52es
+2024-10-15 10:31:47,831 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp8lj2_epf
+2024-10-15 10:31:48,251 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp2jitbz_p
+2024-10-15 10:31:48,272 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:48,298 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:48,298 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:49,579 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:49,579 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:50,555 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmptsims9pn
+2024-10-15 10:31:51,410 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjcwNg==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjYzNA==', 'versionIndex': 11}}}
+2024-10-15 10:31:51,410 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:51,410 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:31:51,410 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:51,423 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:51,423 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:51,423 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:51,423 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:51,423 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:51,423 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:51,423 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:51,423 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:52,306 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:52,306 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:31:53,315 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:53,315 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\saved_model.pb
+2024-10-15 10:31:53,315 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\keras_metadata.pb
+2024-10-15 10:31:53,315 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.index
+2024-10-15 10:31:53,315 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.data-00000-of-00001
+2024-10-15 10:31:53,315 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\assets
+2024-10-15 10:31:53,315 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best
+2024-10-15 10:31:53,315 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables
+2024-10-15 10:31:53,521 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:31:53,521 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:31:54,182 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpbbhplt2m
+2024-10-15 10:31:54,324 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:54,561 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp7oq6fp17
+2024-10-15 10:31:55,051 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:55,051 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:31:55,156 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpnrls0m9t
+2024-10-15 10:31:55,414 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:31:55,430 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:31:57,375 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpaxx_upnb
+2024-10-15 10:31:58,401 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjc5Ng==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjcwNg==', 'versionIndex': 12}}}
+2024-10-15 10:31:58,401 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:31:58,401 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:31:58,401 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:58,401 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:58,401 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:58,401 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:58,401 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:31:58,401 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:31:58,401 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:31:58,995 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:31:58,995 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:31:59,380 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:31:59,380 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:31:59,665 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpmoozmm01
+2024-10-15 10:31:59,933 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpskazsud2
+2024-10-15 10:32:00,392 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:00,470 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp_p59com7
+2024-10-15 10:32:00,486 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:00,486 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:04,233 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:32:05,702 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:05,702 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:06,636 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmph1pj1gvc
+2024-10-15 10:32:07,013 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:07,013 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:07,537 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjg3Mw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjc5Ng==', 'versionIndex': 13}}}
+2024-10-15 10:32:07,537 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:07,537 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:32:07,537 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:07,537 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:07,537 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:07,537 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:07,550 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:07,551 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:07,551 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:32:08,215 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp7aakn_43
+2024-10-15 10:32:08,325 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:08,325 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:08,482 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:08,482 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:08,577 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp0ri9ican
+2024-10-15 10:32:09,018 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpfgezjytn
+2024-10-15 10:32:09,492 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:09,634 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:09,634 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:10,421 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:32:10,437 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:32:11,287 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpr_i9b5ju
+2024-10-15 10:32:12,257 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMzExNQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMjg3Mw==', 'versionIndex': 14}}}
+2024-10-15 10:32:12,262 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:12,262 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:12,262 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:12,262 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:12,262 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:12,262 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:12,262 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:12,262 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:12,262 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:12,262 DEBUG   SenderThread:66188 [sender.py:send():380] send: stats
+2024-10-15 10:32:12,262 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:12,262 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:12,262 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:12,262 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:12,262 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:12,262 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:12,262 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:12,262 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:32:12,529 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:13,363 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:32:13,536 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:13,536 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\saved_model.pb
+2024-10-15 10:32:13,536 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\keras_metadata.pb
+2024-10-15 10:32:13,536 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.index
+2024-10-15 10:32:13,536 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.data-00000-of-00001
+2024-10-15 10:32:13,536 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\assets
+2024-10-15 10:32:13,536 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best
+2024-10-15 10:32:13,536 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables
+2024-10-15 10:32:13,661 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:32:13,677 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:32:14,413 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp9aaibrbc
+2024-10-15 10:32:14,547 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:14,706 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp7o4wtu9f
+2024-10-15 10:32:15,166 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:15,166 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:15,209 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpvh3n6k6v
+2024-10-15 10:32:16,381 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:16,381 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:17,497 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpl35vzysh
+2024-10-15 10:32:17,583 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:17,583 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:18,257 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMzIyNw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMzExNQ==', 'versionIndex': 15}}}
+2024-10-15 10:32:18,257 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:18,257 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:18,257 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:18,257 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:18,257 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:18,257 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:18,257 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:18,257 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:18,257 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:18,364 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:32:18,581 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:18,806 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:18,806 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:18,806 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:18,807 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:18,807 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:19,583 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:19,583 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:20,016 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:20,016 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:20,016 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:20,016 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:20,016 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:20,598 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:21,220 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:21,220 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:21,231 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:21,231 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:21,231 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:21,231 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:21,231 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:21,231 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:21,231 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:21,605 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:21,605 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:22,615 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:23,312 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:32:23,312 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:32:23,617 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:24,109 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpqhin38g2
+2024-10-15 10:32:24,466 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp5_4a2mns
+2024-10-15 10:32:24,632 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:24,649 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:24,649 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:24,875 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpfk5mp0at
+2024-10-15 10:32:25,453 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-15 10:32:25,453 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:32:25,459 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:32:26,648 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\saved_model.pb
+2024-10-15 10:32:26,648 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\keras_metadata.pb
+2024-10-15 10:32:26,648 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.index
+2024-10-15 10:32:26,648 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.data-00000-of-00001
+2024-10-15 10:32:26,648 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\assets
+2024-10-15 10:32:26,648 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best
+2024-10-15 10:32:26,648 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables
+2024-10-15 10:32:26,757 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:32:27,495 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpf3eu15ug
+2024-10-15 10:32:28,188 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:28,188 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:28,440 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMzM5Mw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMzIyNw==', 'versionIndex': 16}}}
+2024-10-15 10:32:28,440 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:28,440 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:32:28,440 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:28,440 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:28,440 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:28,440 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:28,440 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:28,440 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:28,440 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:32:28,582 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:32:28,661 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:29,302 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpmp1nhyuf
+2024-10-15 10:32:29,576 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp600b854r
+2024-10-15 10:32:29,671 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:30,160 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpc3mwieww
+2024-10-15 10:32:30,681 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:32,356 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:32:32,482 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpyxhsvjc6
+2024-10-15 10:32:33,193 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMzQ4NA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMzM5Mw==', 'versionIndex': 17}}}
+2024-10-15 10:32:33,193 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:33,193 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:33,193 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:33,193 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:33,193 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:33,193 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:33,193 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:33,193 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:32:33,715 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:33,874 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpjh8__1yw
+2024-10-15 10:32:33,874 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:33,874 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:34,458 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpf8tu_tcp
+2024-10-15 10:32:34,726 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:35,059 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp9xoxeau2
+2024-10-15 10:32:35,154 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:35,154 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:35,739 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:36,419 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:36,419 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:37,587 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpfdzi6rej
+2024-10-15 10:32:37,697 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:37,697 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:38,312 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxMzU0Nw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMzQ4NA==', 'versionIndex': 18}}}
+2024-10-15 10:32:38,312 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:38,312 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:32:38,312 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:38,312 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:38,312 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:38,312 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:38,312 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:38,312 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:38,312 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:38,312 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:38,312 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:38,312 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:38,312 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:38,769 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:38,983 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:38,983 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:38,983 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:38,983 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:38,991 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:39,275 DEBUG   SenderThread:66188 [sender.py:send():380] send: stats
+2024-10-15 10:32:39,779 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:39,779 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:40,270 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:40,270 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:40,270 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:40,270 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:40,270 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:40,443 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:32:40,475 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:32:40,475 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:32:40,791 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:41,548 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:41,548 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:41,548 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:41,548 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:41,548 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:41,801 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:41,801 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:42,811 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:42,811 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:42,811 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:42,811 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:42,811 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:43,379 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:32:43,820 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:43,820 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:44,099 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:44,099 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:44,099 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:44,099 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:44,099 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:44,830 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:45,365 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:45,365 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:45,365 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:45,365 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:45,365 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:45,837 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:45,837 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:46,639 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:46,639 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:46,639 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:46,639 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:46,639 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:46,844 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:47,850 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:47,913 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:47,913 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:47,913 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:47,913 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:47,913 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:48,410 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:32:48,856 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:49,196 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:49,196 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:49,196 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:49,196 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:49,196 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:49,862 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:49,862 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:50,475 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:50,475 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:50,475 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:50,475 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:50,475 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:50,868 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:51,751 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:51,751 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:51,751 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:51,751 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:51,761 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:51,876 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:51,876 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:53,025 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:53,025 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:53,025 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:53,025 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:53,025 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:53,435 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:32:53,891 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:53,891 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:54,308 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:54,308 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:54,308 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:54,308 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:54,318 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:54,901 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:55,453 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:32:55,484 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:32:55,484 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:32:55,578 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:55,594 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:55,604 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:55,604 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:55,610 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:55,910 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:55,910 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:56,872 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:56,872 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:56,872 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:56,872 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:56,872 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:56,919 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:57,928 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:58,150 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:58,150 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:58,150 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:58,150 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:58,150 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:58,482 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:32:58,941 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:32:59,431 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:59,431 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:32:59,431 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:32:59,431 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:32:59,431 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:32:59,952 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:32:59,952 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:00,710 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:00,710 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:00,710 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:00,710 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:00,710 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:00,963 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:01,974 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:01,990 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:01,990 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:01,990 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:01,990 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:01,990 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:02,984 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:03,269 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:03,269 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:03,269 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:03,269 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:03,269 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:03,548 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:33:03,998 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:03,998 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:04,582 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:04,582 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:04,582 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:04,582 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:04,582 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:05,008 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:05,861 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:05,861 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:05,861 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:05,861 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:05,861 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:06,019 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:06,019 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:07,172 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:07,172 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:07,172 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:07,172 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:07,172 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:08,041 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:08,041 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:08,451 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:08,451 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:08,451 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:08,451 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:08,467 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:08,562 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:33:09,051 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:09,289 DEBUG   SenderThread:66188 [sender.py:send():380] send: stats
+2024-10-15 10:33:09,733 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:09,733 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:09,733 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:09,733 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:09,733 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:10,064 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:10,064 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:10,459 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:33:10,506 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:33:10,506 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:33:11,012 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:11,012 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:11,012 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:11,012 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:11,012 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:11,075 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:12,087 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:12,302 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:12,302 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:12,308 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:12,308 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:12,308 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:13,098 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:13,572 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:13,572 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:13,572 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:13,572 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:13,572 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:33:13,588 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:14,109 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:14,109 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:14,852 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:14,852 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:14,852 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:14,852 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:14,852 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:15,122 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:16,118 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:16,118 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:16,133 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:16,133 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:16,133 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:16,133 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:16,133 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:17,409 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:17,409 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:17,409 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:17,409 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:17,409 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:18,150 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:18,150 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:18,607 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:33:18,685 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:18,685 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:18,685 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:18,685 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:18,695 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:19,158 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:19,960 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:19,960 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:19,960 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:19,960 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:19,960 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:20,164 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:20,164 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:21,247 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:21,247 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:21,247 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:21,251 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:21,251 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:22,174 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:22,174 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:22,520 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:22,520 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:22,520 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:22,536 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:22,536 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:23,182 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:23,669 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:33:23,810 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:23,810 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:23,810 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:23,810 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:23,810 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:24,188 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:24,188 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:25,101 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:25,101 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:25,101 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:25,101 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:25,101 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:25,196 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:25,463 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:33:25,527 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:33:25,527 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:33:26,206 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:26,380 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:26,380 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:26,380 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:26,380 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:26,380 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:27,218 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:27,661 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:27,661 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:27,661 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:27,661 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:27,661 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:28,227 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:28,227 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:28,764 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:33:29,001 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:29,001 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:29,001 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:29,001 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:29,001 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:29,237 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:30,247 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:30,279 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:30,279 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:30,279 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:30,279 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:30,296 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:31,259 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:31,567 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:31,567 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:31,567 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:31,567 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:31,567 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:32,271 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:32,271 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:32,849 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:32,849 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:32,855 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:32,855 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:32,855 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:33,282 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:33,845 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:33:34,152 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:34,152 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:34,152 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:34,168 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:34,168 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:34,295 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:34,295 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:35,431 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:35,431 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:35,447 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:35,447 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:35,447 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:35,447 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:35,447 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:35,447 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:35,447 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:36,315 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:36,315 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:37,326 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:38,337 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:39,111 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:33:39,301 DEBUG   SenderThread:66188 [sender.py:send():380] send: stats
+2024-10-15 10:33:39,348 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:39,348 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\saved_model.pb
+2024-10-15 10:33:39,348 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\keras_metadata.pb
+2024-10-15 10:33:39,348 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.index
+2024-10-15 10:33:39,348 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables.data-00000-of-00001
+2024-10-15 10:33:39,348 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables\variables_temp
+2024-10-15 10:33:39,348 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\assets
+2024-10-15 10:33:39,348 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best
+2024-10-15 10:33:39,348 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\model-best\variables
+2024-10-15 10:33:39,948 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:33:39,958 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:33:40,468 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:33:40,548 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-15 10:33:41,369 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:41,464 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:41,464 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:41,787 INFO    wandb-upload_3:66188 [upload_job.py:push():86] Skipped uploading C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpnnh8_e7_
+2024-10-15 10:33:42,474 INFO    wandb-upload_1:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp43a740az
+2024-10-15 10:33:42,774 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:42,774 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:43,611 INFO    wandb-upload_2:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmphobz40wl
+2024-10-15 10:33:44,091 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:44,091 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:45,379 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:45,379 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:45,600 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-15 10:33:45,899 INFO    wandb-upload_0:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmpcecgh5ds
+2024-10-15 10:33:46,605 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact model-ancient-sweep-7 - {'id': 'QXJ0aWZhY3Q6MTI4MTgxNDQ4OQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MTgxMzU0Nw==', 'versionIndex': 19}}}
+2024-10-15 10:33:46,621 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:33:46,621 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: stop_status
+2024-10-15 10:33:46,647 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: log_artifact
+2024-10-15 10:33:46,652 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: partial_history
+2024-10-15 10:33:46,872 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:46,872 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:46,872 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:46,872 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:46,872 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:46,872 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:46,872 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:46,872 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:46,872 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:46,872 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:46,888 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:46,888 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:46,888 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: log_artifact
+2024-10-15 10:33:47,425 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:47,425 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\media\table\metrics_100_dc7cdd688a68d3949ac0.table.json
+2024-10-15 10:33:47,425 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\media
+2024-10-15 10:33:47,425 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\media\table
+2024-10-15 10:33:47,676 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-15 10:33:47,739 INFO    wandb-upload_3:66188 [upload_job.py:push():89] Uploaded file C:\Users\Estudiantes\AppData\Local\wandb\wandb\artifacts\staging\tmp5l7d2c3y
+2024-10-15 10:33:47,818 INFO    wandb-upload_2:66188 [upload_job.py:push():131] Uploaded file C:\Users\ESTUDI~1\AppData\Local\Temp\tmppwicadq3wandb\fti5l8rn-media/table/metrics_100_dc7cdd688a68d3949ac0.table.json
+2024-10-15 10:33:48,430 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:48,509 INFO    SenderThread:66188 [sender.py:send_request_log_artifact():1446] logged artifact run-if3ge4vq-metrics - {'id': 'QXJ0aWZhY3Q6MTI4MTgxNDU4Mw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NzcxNjgxNA==', 'latestArtifact': None}}
+2024-10-15 10:33:48,509 DEBUG   SenderThread:66188 [sender.py:send():380] send: files
+2024-10-15 10:33:48,509 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file media\table\metrics_100_dc7cdd688a68d3949ac0.table.json with policy now
+2024-10-15 10:33:48,509 DEBUG   SenderThread:66188 [sender.py:send():380] send: history
+2024-10-15 10:33:48,509 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: summary_record
+2024-10-15 10:33:48,509 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:48,509 DEBUG   SenderThread:66188 [sender.py:send():380] send: telemetry
+2024-10-15 10:33:48,509 DEBUG   SenderThread:66188 [sender.py:send():380] send: exit
+2024-10-15 10:33:48,509 INFO    SenderThread:66188 [sender.py:send_exit():585] handling exit code: 0
+2024-10-15 10:33:48,509 INFO    SenderThread:66188 [sender.py:send_exit():587] handling runtime: 247
+2024-10-15 10:33:48,509 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:48,509 INFO    SenderThread:66188 [sender.py:send_exit():593] send defer
+2024-10-15 10:33:48,509 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: poll_exit
+2024-10-15 10:33:48,509 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:48,509 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 0
+2024-10-15 10:33:48,509 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:48,509 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-10-15 10:33:48,509 INFO    SenderThread:66188 [sender.py:transition_state():613] send defer: 1
+2024-10-15 10:33:48,509 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:48,509 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 1
+2024-10-15 10:33:48,509 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:48,509 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-10-15 10:33:48,509 INFO    SenderThread:66188 [sender.py:transition_state():613] send defer: 2
+2024-10-15 10:33:48,509 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:48,509 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 2
+2024-10-15 10:33:48,509 INFO    HandlerThread:66188 [system_monitor.py:finish():203] Stopping system monitor
+2024-10-15 10:33:48,509 DEBUG   SystemMonitor:66188 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-10-15 10:33:48,509 DEBUG   SystemMonitor:66188 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-10-15 10:33:48,509 INFO    HandlerThread:66188 [interfaces.py:finish():202] Joined cpu monitor
+2024-10-15 10:33:48,524 INFO    HandlerThread:66188 [interfaces.py:finish():202] Joined disk monitor
+2024-10-15 10:33:48,572 INFO    HandlerThread:66188 [interfaces.py:finish():202] Joined gpu monitor
+2024-10-15 10:33:48,572 INFO    HandlerThread:66188 [interfaces.py:finish():202] Joined memory monitor
+2024-10-15 10:33:48,572 INFO    HandlerThread:66188 [interfaces.py:finish():202] Joined network monitor
+2024-10-15 10:33:48,572 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:48,572 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-10-15 10:33:48,572 INFO    SenderThread:66188 [sender.py:transition_state():613] send defer: 3
+2024-10-15 10:33:48,572 DEBUG   SenderThread:66188 [sender.py:send():380] send: stats
+2024-10-15 10:33:48,572 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:48,572 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 3
+2024-10-15 10:33:48,572 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:48,572 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-10-15 10:33:48,572 INFO    SenderThread:66188 [sender.py:transition_state():613] send defer: 4
+2024-10-15 10:33:48,572 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:48,572 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 4
+2024-10-15 10:33:48,572 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:48,572 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-10-15 10:33:48,572 INFO    SenderThread:66188 [sender.py:transition_state():613] send defer: 5
+2024-10-15 10:33:48,572 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:48,572 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 5
+2024-10-15 10:33:48,572 DEBUG   SenderThread:66188 [sender.py:send():380] send: summary
+2024-10-15 10:33:48,572 INFO    SenderThread:66188 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-15 10:33:48,572 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:48,572 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-10-15 10:33:48,572 INFO    SenderThread:66188 [sender.py:transition_state():613] send defer: 6
+2024-10-15 10:33:48,572 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:48,572 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 6
+2024-10-15 10:33:48,572 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:48,572 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-10-15 10:33:48,587 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: status_report
+2024-10-15 10:33:48,682 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-15 10:33:48,729 INFO    SenderThread:66188 [sender.py:transition_state():613] send defer: 7
+2024-10-15 10:33:48,729 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: poll_exit
+2024-10-15 10:33:48,729 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:48,729 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 7
+2024-10-15 10:33:48,729 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:48,729 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-10-15 10:33:48,949 INFO    wandb-upload_1:66188 [upload_job.py:push():131] Uploaded file C:\Users\ESTUDI~1\AppData\Local\Temp\tmppwicadq3wandb\5qmz7zk9-media/table/metrics_100_dc7cdd688a68d3949ac0.table.json
+2024-10-15 10:33:49,435 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\config.yaml
+2024-10-15 10:33:49,435 INFO    Thread-16 :66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:49,686 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-15 10:33:50,536 INFO    SenderThread:66188 [sender.py:transition_state():613] send defer: 8
+2024-10-15 10:33:50,536 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: poll_exit
+2024-10-15 10:33:50,536 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:50,536 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 8
+2024-10-15 10:33:50,536 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:50,536 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-10-15 10:33:50,536 INFO    SenderThread:66188 [sender.py:transition_state():613] send defer: 9
+2024-10-15 10:33:50,536 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:50,536 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 9
+2024-10-15 10:33:50,536 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:50,536 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-10-15 10:33:50,536 INFO    SenderThread:66188 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-10-15 10:33:50,693 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-15 10:33:51,451 INFO    SenderThread:66188 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:51,451 INFO    SenderThread:66188 [dir_watcher.py:finish():388] scan: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files
+2024-10-15 10:33:51,451 INFO    SenderThread:66188 [dir_watcher.py:finish():402] scan save: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\conda-environment.yaml conda-environment.yaml
+2024-10-15 10:33:51,451 INFO    SenderThread:66188 [dir_watcher.py:finish():402] scan save: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\config.yaml config.yaml
+2024-10-15 10:33:51,451 INFO    SenderThread:66188 [dir_watcher.py:finish():402] scan save: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log output.log
+2024-10-15 10:33:51,451 INFO    SenderThread:66188 [dir_watcher.py:finish():402] scan save: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\requirements.txt requirements.txt
+2024-10-15 10:33:51,451 INFO    SenderThread:66188 [dir_watcher.py:finish():402] scan save: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-metadata.json wandb-metadata.json
+2024-10-15 10:33:51,461 INFO    SenderThread:66188 [dir_watcher.py:finish():402] scan save: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json wandb-summary.json
+2024-10-15 10:33:51,466 INFO    SenderThread:66188 [dir_watcher.py:finish():402] scan save: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\media\graph\graph_summary_f7f2294024c62ff67606.graph.json media/graph/graph_summary_f7f2294024c62ff67606.graph.json
+2024-10-15 10:33:51,466 INFO    SenderThread:66188 [dir_watcher.py:finish():402] scan save: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\media\table\metrics_100_dc7cdd688a68d3949ac0.table.json media/table/metrics_100_dc7cdd688a68d3949ac0.table.json
+2024-10-15 10:33:51,466 INFO    SenderThread:66188 [sender.py:transition_state():613] send defer: 10
+2024-10-15 10:33:51,466 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: poll_exit
+2024-10-15 10:33:51,466 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:51,466 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 10
+2024-10-15 10:33:51,466 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:51,466 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-10-15 10:33:51,466 INFO    SenderThread:66188 [file_pusher.py:finish():175] shutting down file pusher
+2024-10-15 10:33:51,702 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-15 10:33:51,702 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: poll_exit
+2024-10-15 10:33:51,875 INFO    wandb-upload_3:66188 [upload_job.py:push():131] Uploaded file C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\conda-environment.yaml
+2024-10-15 10:33:52,007 INFO    wandb-upload_0:66188 [upload_job.py:push():131] Uploaded file C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\config.yaml
+2024-10-15 10:33:52,032 INFO    wandb-upload_4:66188 [upload_job.py:push():131] Uploaded file C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\wandb-summary.json
+2024-10-15 10:33:52,063 INFO    wandb-upload_1:66188 [upload_job.py:push():131] Uploaded file C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\requirements.txt
+2024-10-15 10:33:52,079 INFO    wandb-upload_2:66188 [upload_job.py:push():131] Uploaded file C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\files\output.log
+2024-10-15 10:33:52,300 INFO    Thread-15 (_thread_body):66188 [sender.py:transition_state():613] send defer: 11
+2024-10-15 10:33:52,300 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:52,300 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 11
+2024-10-15 10:33:52,300 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:52,300 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-10-15 10:33:52,300 INFO    SenderThread:66188 [file_pusher.py:join():181] waiting for file pusher
+2024-10-15 10:33:52,300 INFO    SenderThread:66188 [sender.py:transition_state():613] send defer: 12
+2024-10-15 10:33:52,300 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:52,300 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 12
+2024-10-15 10:33:52,300 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:52,300 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-10-15 10:33:52,300 INFO    SenderThread:66188 [file_stream.py:finish():595] file stream finish called
+2024-10-15 10:33:52,598 INFO    SenderThread:66188 [file_stream.py:finish():599] file stream finish is done
+2024-10-15 10:33:52,598 INFO    SenderThread:66188 [sender.py:transition_state():613] send defer: 13
+2024-10-15 10:33:52,599 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:52,599 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 13
+2024-10-15 10:33:52,599 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:52,599 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-10-15 10:33:52,599 INFO    SenderThread:66188 [sender.py:transition_state():613] send defer: 14
+2024-10-15 10:33:52,599 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: defer
+2024-10-15 10:33:52,600 INFO    HandlerThread:66188 [handler.py:handle_request_defer():172] handle defer: 14
+2024-10-15 10:33:52,600 DEBUG   SenderThread:66188 [sender.py:send():380] send: final
+2024-10-15 10:33:52,600 DEBUG   SenderThread:66188 [sender.py:send():380] send: footer
+2024-10-15 10:33:52,600 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: defer
+2024-10-15 10:33:52,600 INFO    SenderThread:66188 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-10-15 10:33:52,600 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-15 10:33:52,600 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: poll_exit
+2024-10-15 10:33:52,600 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-15 10:33:52,600 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: server_info
+2024-10-15 10:33:52,600 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: get_summary
+2024-10-15 10:33:52,600 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: server_info
+2024-10-15 10:33:52,600 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: sampled_history
+2024-10-15 10:33:52,608 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: job_info
+2024-10-15 10:33:52,708 DEBUG   SenderThread:66188 [sender.py:send_request():407] send_request: job_info
+2024-10-15 10:33:52,708 DEBUG   HandlerThread:66188 [handler.py:handle_request():146] handle_request: shutdown
+2024-10-15 10:33:52,708 INFO    HandlerThread:66188 [handler.py:finish():866] shutting down handler
+2024-10-15 10:33:53,623 INFO    WriterThread:66188 [datastore.py:close():294] close: C:\Users\Estudiantes\Documents\copy\Mamitas-Unal\wandb\run-20241015_102938-if3ge4vq\run-if3ge4vq.wandb
+2024-10-15 10:33:53,718 INFO    SenderThread:66188 [sender.py:finish():1536] shutting down sender
+2024-10-15 10:33:53,718 INFO    SenderThread:66188 [file_pusher.py:finish():175] shutting down file pusher
+2024-10-15 10:33:53,718 INFO    SenderThread:66188 [file_pusher.py:join():181] waiting for file pusher
